@@ -1,4 +1,3 @@
-````html
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -7,20 +6,8 @@
     <title>He Went To...</title>
     <script src="https://cdn.tailwindcss.com"></script>
     <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css" />
+    <link rel="stylesheet" href="css/styles.css">
     <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"></script>
-    <style>
-        #map { height: 100vh; width: 100%; cursor: crosshair; }
-        .leaflet-container { background: #f8fafc !important; }
-        .leaflet-control-attribution { display: none !important; }
-        
-        .pin-drop {
-            animation: bounce 0.3s cubic-bezier(0.175, 0.885, 0.32, 1.275);
-        }
-        @keyframes bounce {
-            0% { transform: translateY(-30px); opacity: 0; }
-            100% { transform: translateY(0); opacity: 1; }
-        }
-    </style>
 </head>
 <body class="bg-slate-50 text-slate-900 overflow-hidden font-sans">
 
@@ -59,12 +46,12 @@
                 <h3 class="text-sm font-black uppercase tracking-widest mb-2 text-slate-700">Player Scores</h3>
                 <ul id="score-list" class="space-y-1 text-xs font-bold text-slate-900"></ul>
             </div>
-            
+
             <button id="guess-btn" class="mt-4 w-full bg-slate-200 text-slate-400 font-black py-4 rounded-xl cursor-not-allowed transition-all uppercase italic">
                 Place Your Pin
             </button>
         </div>
-        
+
         <div class="bg-white/95 border-2 border-slate-200 p-4 rounded-2xl text-right pointer-events-auto shadow-lg">
             <p class="text-[10px] text-slate-400 uppercase font-black tracking-widest mb-1">Career Points</p>
             <p id="total-score" class="text-4xl font-black text-slate-900 italic leading-none">0</p>
@@ -88,181 +75,8 @@
 
     <div id="map"></div>
 
-    <script>
-        // Cached DOM elements
-        const modeSelector = document.getElementById('mode-selector');
-        const basketballModeBtn = document.getElementById('basketball-mode');
-        const footballModeBtn = document.getElementById('football-mode');
-        const mixModeBtn = document.getElementById('mix-mode');
-        const playerNameEl = document.getElementById('player-name');
-        const playerInfoEl = document.getElementById('player-info');
-        const guessBtn = document.getElementById('guess-btn');
-        const totalScoreEl = document.getElementById('total-score');
-        const resultModal = document.getElementById('result-modal');
-        const modalCollegeName = document.getElementById('modal-college-name');
-        const modalDistance = document.getElementById('modal-distance');
-        const modalScoreEarned = document.getElementById('modal-score-earned');
-        const nextBtn = document.getElementById('next-btn');
-        const scoreList = document.getElementById('score-list');
-
-        // Constants
-        const MAX_PLAYERS = 5;
-        const INITIAL_VIEW = [39.82, -98.57];
-        const INITIAL_ZOOM = 4;
-        const MILES_PER_METER = 0.000621371;
-        const PERFECT_DISTANCE = 10; // Changed to 10 miles
-        const MAX_SCORE = 5000;
-        const SCORE_DECAY_FACTOR = 250;
-
-        let players = [];
-        let currentRound = 0;
-        let totalScore = 0;
-        let currentGuess = null;
-        let guessMarker = null;
-        let flightPath = null;
-        let targetMarker = null;
-        let playerScores = []; // New array to track individual player scores
-        let gameMode = null; // 'basketball', 'football', or 'mix'
-
-        const map = L.map('map', { 
-            zoomControl: false, 
-            attributionControl: false,
-            maxBounds: L.latLngBounds(L.latLng(24.5, -125.0), L.latLng(49.0, -66.0)), // Tighter bounds for continental US
-            maxBoundsViscosity: 1.0,
-            minZoom: 5 // Increased to prevent zooming out too far
-        }).setView(INITIAL_VIEW, INITIAL_ZOOM);
-
-        L.tileLayer('https://{s}.basemaps.cartocdn.com/light_all/{z}/{x}/{y}{r}.png').addTo(map); // Changed to Positron for higher contrast
-
-        // Utility functions
-        const shuffleArray = (array) => array.sort(() => Math.random() - 0.5);
-        const calculateScore = (dist) => dist <= PERFECT_DISTANCE ? MAX_SCORE : Math.max(0, Math.floor(MAX_SCORE * Math.exp(-(dist - PERFECT_DISTANCE) / SCORE_DECAY_FACTOR)));
-
-        // Mode selection
-        basketballModeBtn.addEventListener('click', () => {
-            gameMode = 'basketball';
-            startGame();
-        });
-        footballModeBtn.addEventListener('click', () => {
-            gameMode = 'football';
-            startGame();
-        });
-        mixModeBtn.addEventListener('click', () => {
-            gameMode = 'mix';
-            startGame();
-        });
-
-        function startGame() {
-            modeSelector.classList.add('hidden');
-            initGame();
-        }
-
-        // --- FETCH AND INITIALIZE DATABASE ---
-        async function initGame() {
-            try {
-                const response = await fetch('players.json');
-                const data = await response.json();
-                let filteredData = data;
-                if (gameMode === 'basketball') {
-                    filteredData = data.filter(p => p.sport === 'basketball');
-                } else if (gameMode === 'football') {
-                    filteredData = data.filter(p => p.sport === 'football');
-                }
-                players = shuffleArray(filteredData).slice(0, MAX_PLAYERS);
-                loadPlayer();
-            } catch (err) {
-                console.error("Failed to load players.json:", err);
-                playerNameEl.innerText = "Load Error";
-            }
-        }
-
-        function loadPlayer() {
-            if (currentRound >= players.length) {
-                showFinalResults();
-                return;
-            }
-            const p = players[currentRound];
-            playerNameEl.innerText = p.name;
-            playerInfoEl.innerText = p.info;
-            guessBtn.innerText = "Place Your Pin";
-            guessBtn.className = "mt-4 w-full bg-slate-200 text-slate-400 font-black py-4 rounded-xl cursor-not-allowed uppercase italic";
-            
-            // Clear previous markers
-            if (guessMarker) map.removeLayer(guessMarker);
-            if (flightPath) map.removeLayer(flightPath);
-            if (targetMarker) map.removeLayer(targetMarker);
-            currentGuess = null;
-            
-            map.flyTo(INITIAL_VIEW, INITIAL_ZOOM, { duration: 1.5 });
-        }
-
-        map.on('click', (e) => {
-            if (guessMarker) map.removeLayer(guessMarker);
-            currentGuess = e.latlng;
-            
-            const pinIcon = L.divIcon({
-                className: 'pin-drop',
-                html: `<div style="background: #2563eb; width: 24px; height: 24px; border-radius: 50% 50% 50% 0; transform: rotate(-45deg); border: 3px solid white; box-shadow: 0 4px 10px rgba(0,0,0,0.2);"></div>`,
-                iconSize: [24, 24],
-                iconAnchor: [12, 24]
-            });
-
-            guessMarker = L.marker(currentGuess, {icon: pinIcon}).addTo(map);
-            guessBtn.className = "mt-4 w-full bg-blue-600 text-white font-black py-4 rounded-xl cursor-pointer shadow-xl hover:scale-105 active:scale-95 transition-all uppercase italic text-lg";
-            guessBtn.innerText = "Lock It In";
-        });
-
-        guessBtn.addEventListener('click', () => {
-            if (!currentGuess) return;
-            const p = players[currentRound];
-            const target = L.latLng(p.lat, p.lng);
-            const dist = map.distance(currentGuess, target) * MILES_PER_METER;
-            
-            flightPath = L.polyline([currentGuess, target], {
-                color: '#2563eb', weight: 4, dashArray: '10, 15', opacity: 0.6
-            }).addTo(map);
-
-            targetMarker = L.circleMarker(target, {
-                radius: 10, fillColor: "#16a34a", color: "white", weight: 4, fillOpacity: 1
-            }).addTo(map);
-
-            const group = new L.featureGroup([guessMarker, targetMarker]);
-            map.fitBounds(group.getBounds(), { padding: [100, 100], duration: 1.2 });
-
-            const score = calculateScore(dist);
-            totalScore += score;
-            playerScores.push({ name: p.name, score: score }); // Add to player scores
-            updateScoreTracker(); // Update the tracker
-
-            setTimeout(() => {
-                modalCollegeName.innerText = p.college;
-                modalDistance.innerText = dist <= PERFECT_DISTANCE ? "PERFECT SCOUTING" : `${dist.toFixed(1)} miles away`;
-                modalScoreEarned.innerText = `+${score.toLocaleString()}`;
-                resultModal.classList.remove('hidden');
-                totalScoreEl.innerText = totalScore.toLocaleString();
-            }, 1300);
-        });
-
-        nextBtn.addEventListener('click', () => {
-            resultModal.classList.add('hidden');
-            currentRound++;
-            loadPlayer();
-        });
-
-        function updateScoreTracker() {
-            scoreList.innerHTML = playerScores.map(s => `<li>${s.name}: ${s.score.toLocaleString()}</li>`).join('');
-        }
-
-        function showFinalResults() {
-            document.getElementById('modal-result-title').innerText = "Draft Complete";
-            modalCollegeName.innerText = "Career Score";
-            modalDistance.innerText = "Game Over";
-            modalScoreEarned.innerText = totalScore.toLocaleString();
-            nextBtn.innerText = "New Season";
-            nextBtn.onclick = () => window.location.reload();
-            resultModal.classList.remove('hidden');
-        }
-    </script>
+    <script src="js/config.js"></script>
+    <script src="js/map.js"></script>
+    <script src="js/game.js"></script>
 </body>
 </html>
-````

@@ -1,6 +1,3 @@
-import json
-
-data_input = """
 [
   { "name": "Stephen Curry", "info": "Basketball • 2006-2009", "college": "Davidson", "lat": 35.5005, "lng": -80.8465, "difficulty": "Easy" },
   { "name": "Joe Burrow", "info": "Football • 2018-2019", "college": "LSU", "lat": 30.4133, "lng": -91.1800, "difficulty": "Easy" },
@@ -53,13 +50,3 @@ data_input = """
   { "name": "Tyrese Haliburton", "info": "Basketball • 2018-2020", "college": "Iowa State", "lat": 42.0267, "lng": -93.6465, "difficulty": "Hard" },
   { "name": "Stefon Diggs", "info": "Football • 2012-2014", "college": "Maryland", "lat": 38.9869, "lng": -76.9426, "difficulty": "Medium" }
 ]
-"""
-
-players = json.loads(data_input)
-for p in players:
-    if "Basketball" in p["info"]:
-        p["sport"] = "basketball"
-    elif "Football" in p["info"]:
-        p["sport"] = "football"
-
-print(json.dumps(players, indent=2))
