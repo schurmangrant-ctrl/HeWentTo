@@ -4,15 +4,10 @@ A browser game where you guess which college a professional athlete attended by 
 
 ## Project Structure
 
-- `index.html` - Page markup and script/style includes.
-- `css/styles.css` - Custom styles that are not handled by Tailwind or Leaflet.
-- `js/config.js` - Shared constants for game limits, scoring, and map defaults.
-- `js/dom.js` - Cached DOM element references.
-- `js/state.js` - Mutable game state.
-- `js/utils.js` - Small reusable helpers.
-- `js/map.js` - Leaflet map setup and map click handling.
-- `js/game.js` - Mode selection, player loading, scoring, rounds, and modal flow.
-- `players.json` - Player data used by the game.
+- `index.html` - Page markup and script/style for the main game UI.
+- `css/*.css` - Custom styles that are not handled by Tailwind or Leaflet.
+- `js/*.js` - All of the logic for the app containing map setup and game updates.
+- `players.json` - Player data used by the game. This will eventually be replaced with API calls.
 
 ## Running Locally
 
@@ -35,15 +30,17 @@ Each entry in `players.json` should include:
 ```json
 {
   "name": "Player Name",
-  "info": "Short hint or player details",
+  "sport": "basketball",
+  "startYear": 2018,
+  "endYear": 2020,
   "college": "College Name",
   "lat": 0,
   "lng": 0,
-  "sport": "basketball"
+  "difficulty": "Easy"
 }
 ```
 
-Supported `sport` values are `basketball` and `football`. Mix mode uses all players.
+Supported `sport` values are `basketball` and `football`. Basketball and football modes filter by this field; mix mode uses all players. The game displays player info from `sport`, `startYear`, and `endYear`.
 
 ## Dependencies
 

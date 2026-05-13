@@ -14,6 +14,7 @@ mixModeBtn.addEventListener('click', () => {
 
 function startGame() {
     modeSelector.classList.add('hidden');
+    endSeasonBtn.classList.remove('hidden');
     initGame();
 }
 
@@ -37,15 +38,19 @@ async function initGame() {
 }
 
 function loadPlayer() {
+    if (seasonEnded) return;
+
     if (currentRound >= players.length) {
         showFinalResults();
         return;
     }
     const p = players[currentRound];
     playerNameEl.innerText = p.name;
-    playerInfoEl.innerText = p.info;
+    playerInfoEl.innerText = formatPlayerInfo(p);
     guessBtn.innerText = "Place Your Pin";
     guessBtn.className = "mt-4 w-full bg-slate-200 text-slate-400 font-black py-4 rounded-xl cursor-not-allowed uppercase italic";
+    guessBtn.disabled = false;
+    guessLocked = false;
 
     // Clear previous markers
     if (guessMarker) map.removeLayer(guessMarker);
@@ -57,7 +62,15 @@ function loadPlayer() {
 }
 
 guessBtn.addEventListener('click', () => {
+    if (seasonEnded) return;
+    if (guessLocked) return;
     if (!currentGuess) return;
+
+    guessLocked = true;
+    guessBtn.disabled = true;
+    guessBtn.className = "mt-4 w-full bg-slate-300 text-slate-500 font-black py-4 rounded-xl cursor-wait uppercase italic text-lg";
+    guessBtn.innerText = "Locked In";
+
     const p = players[currentRound];
     const target = L.latLng(p.lat, p.lng);
     const dist = map.distance(currentGuess, target) * MILES_PER_METER;
@@ -78,19 +91,33 @@ guessBtn.addEventListener('click', () => {
     playerScores.push({ name: p.name, score: score }); // Add to player scores
     updateScoreTracker(); // Update the tracker
 
-    setTimeout(() => {
+    setTimeout(async () => {
+        if (seasonEnded) return;
+
         modalCollegeName.innerText = p.college;
         modalDistance.innerText = dist <= PERFECT_DISTANCE ? "PERFECT SCOUTING" : `${dist.toFixed(1)} miles away`;
         modalScoreEarned.innerText = `+${score.toLocaleString()}`;
+        await displayCollegeLogo(p.college);
+        if (seasonEnded) return;
+
         resultModal.classList.remove('hidden');
         totalScoreEl.innerText = totalScore.toLocaleString();
     }, 1300);
 });
 
 nextBtn.addEventListener('click', () => {
+    if (seasonEnded) {
+        window.location.reload();
+        return;
+    }
+
     resultModal.classList.add('hidden');
     currentRound++;
     loadPlayer();
+});
+
+endSeasonBtn.addEventListener('click', () => {
+    showFinalResults();
 });
 
 function updateScoreTracker() {
@@ -98,11 +125,13 @@ function updateScoreTracker() {
 }
 
 function showFinalResults() {
+    seasonEnded = true;
+    endSeasonBtn.classList.add('hidden');
+    clearCollegeLogo(true);
     document.getElementById('modal-result-title').innerText = "Draft Complete";
     modalCollegeName.innerText = "Career Score";
     modalDistance.innerText = "Game Over";
     modalScoreEarned.innerText = totalScore.toLocaleString();
     nextBtn.innerText = "New Season";
-    nextBtn.onclick = () => window.location.reload();
     resultModal.classList.remove('hidden');
 }

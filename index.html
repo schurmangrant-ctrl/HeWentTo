@@ -62,6 +62,7 @@
     <div id="result-modal" class="fixed inset-0 z-[2000] bg-slate-900/40 backdrop-blur-[2px] flex items-end md:items-center justify-center hidden p-4">
         <div class="bg-white border-4 border-blue-600 p-8 rounded-[2.5rem] max-w-sm w-full text-center shadow-2xl">
             <p id="modal-result-title" class="text-blue-600 font-black uppercase tracking-widest text-xs mb-2">Campus Located</p>
+            <img id="modal-college-logo" class="hidden h-20 w-20 object-contain mx-auto mb-4" alt="">
             <h2 id="modal-college-name" class="text-4xl font-black mb-4 italic text-slate-900 uppercase leading-tight">College Name</h2>
             <div class="bg-slate-100 rounded-2xl p-4 mb-6">
                 <p id="modal-distance" class="text-slate-500 font-bold text-sm uppercase mb-1"></p>
@@ -73,9 +74,14 @@
         </div>
     </div>
 
+    <button id="end-season-btn" class="hidden fixed bottom-4 right-4 z-[3000] bg-slate-900/90 text-white border-2 border-white/80 font-black px-5 py-3 rounded-xl shadow-xl hover:bg-red-600 transition-all uppercase italic">
+        End Season
+    </button>
+
     <div id="map"></div>
 
     <script src="js/config.js"></script>
+    <script src="js/ncaa-api.js"></script>
     <script src="js/map.js"></script>
     <script src="js/game.js"></script>
 </body>
