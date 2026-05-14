@@ -38,14 +38,14 @@ async function initGame() {
             filteredData = data.filter(p => p.sport === 'football');
         }
         players = shuffleArray(filteredData).slice(0, MAX_PLAYERS);
-        loadPlayer();
+        await loadPlayer();
     } catch (err) {
         console.error("Failed to load players.json:", err);
         playerNameEl.innerText = "Load Error";
     }
 }
 
-function loadPlayer() {
+async function loadPlayer() {
     if (seasonEnded) return;
 
     if (currentRound >= players.length) {
@@ -53,13 +53,13 @@ function loadPlayer() {
         return;
     }
     const p = players[currentRound];
+    playerCard.classList.add('hidden');
     playerNameEl.innerText = p.name;
     playerInfoEl.innerText = formatPlayerInfo(p);
     guessBtn.innerText = "Place Your Pin";
     guessBtn.className = "mt-4 w-full bg-slate-200 text-slate-400 font-black py-4 rounded-xl cursor-not-allowed uppercase italic";
     guessBtn.disabled = false;
     guessLocked = false;
-    playerCard.classList.remove('hidden');
 
     // Clear previous markers
     if (flightAnimationFrame) {
@@ -72,6 +72,10 @@ function loadPlayer() {
     currentGuess = null;
 
     map.flyToBounds(DEFAULT_MAP_BOUNDS, getDefaultMapFitOptions(1.5));
+    await displayPlayerImage(p);
+    if (seasonEnded || p !== players[currentRound]) return;
+
+    playerCard.classList.remove('hidden');
 }
 
 guessBtn.addEventListener('click', () => {

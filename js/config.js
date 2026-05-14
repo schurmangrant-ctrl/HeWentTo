@@ -14,6 +14,7 @@ const mixModeBtn = document.getElementById('mix-mode');
 const playerCard = document.getElementById('player-card');
 const playerNameEl = document.getElementById('player-name');
 const playerInfoEl = document.getElementById('player-info');
+const playerImageEl = document.getElementById('player-image');
 const guessBtn = document.getElementById('guess-btn');
 const totalScoreEl = document.getElementById('total-score');
 const resultModal = document.getElementById('result-modal');
