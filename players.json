@@ -1830,8 +1830,8 @@
     "difficulty": "Medium"
   },
   {
-    "name": "basketball",
-    "sport": "Jaylen Brown",
+    "name": "Jaylen Brown",
+    "sport": "basketball",
     "startYear": 2015,
     "endYear": 2016,
     "college": "California",
@@ -1840,8 +1840,8 @@
     "difficulty": "Medium"
   },
   {
-    "name": "basketball",
-    "sport": "Julius Randle",
+    "name": "Julius Randle",
+    "sport": "basketball",
     "startYear": 2013,
     "endYear": 2014,
     "college": "Kentucky",
@@ -1850,8 +1850,8 @@
     "difficulty": "Medium"
   },
   {
-    "name": "basketball",
-    "sport": "Tyler Ulis",
+    "name": "Tyler Ulis",
+    "sport": "basketball",
     "startYear": 2014,
     "endYear": 2016,
     "college": "Kentucky",
@@ -1860,8 +1860,8 @@
     "difficulty": "Hard"
   },
   {
-    "name": "basketball",
-    "sport": "Malik Monk",
+    "name": "Malik Monk",
+    "sport": "basketball",
     "startYear": 2016,
     "endYear": 2017,
     "college": "Kentucky",
@@ -1870,8 +1870,8 @@
     "difficulty": "Medium"
   },
   {
-    "name": "basketball",
-    "sport": "Immanuel Quickley",
+    "name": "Immanuel Quickley",
+    "sport": "basketball",
     "startYear": 2018,
     "endYear": 2020,
     "college": "Kentucky",
@@ -1880,8 +1880,8 @@
     "difficulty": "Hard"
   },
   {
-    "name": "football",
-    "sport": "Zeke Elliott",
+    "name": "Zeke Elliott",
+    "sport": "football",
     "startYear": 2013,
     "endYear": 2015,
     "college": "Ohio State",
@@ -1890,8 +1890,8 @@
     "difficulty": "Easy"
   },
   {
-    "name": "football",
-    "sport": "Justin Fields",
+    "name": "Justin Fields",
+    "sport": "football",
     "startYear": 2019,
     "endYear": 2020,
     "college": "Ohio State",
@@ -1900,8 +1900,8 @@
     "difficulty": "Easy"
   },
   {
-    "name": "football",
-    "sport": "Dwayne Haskins",
+    "name": "Dwayne Haskins",
+    "sport": "football",
     "startYear": 2017,
     "endYear": 2018,
     "college": "Ohio State",
@@ -1910,8 +1910,8 @@
     "difficulty": "Medium"
   },
   {
-    "name": "football",
-    "sport": "CJ Mosley",
+    "name": "CJ Mosley",
+    "sport": "football",
     "startYear": 2010,
     "endYear": 2013,
     "college": "Alabama",
@@ -1920,8 +1920,8 @@
     "difficulty": "Medium"
   },
   {
-    "name": "football",
-    "sport": "Amari Cooper",
+    "name": "Amari Cooper",
+    "sport": "football",
     "startYear": 2012,
     "endYear": 2014,
     "college": "Alabama",
