@@ -1,14 +1,18 @@
 const map = L.map('map', {
     zoomControl: false,
     attributionControl: false,
-    maxBounds: L.latLngBounds(L.latLng(24.5, -125.0), L.latLng(49.0, -66.0)), // Tighter bounds for continental US
+    maxBounds: DEFAULT_MAP_BOUNDS, // Tighter bounds for continental US
     maxBoundsViscosity: 1.0,
-    minZoom: 5 // Increased to prevent zooming out too far
-}).setView(INITIAL_VIEW, INITIAL_ZOOM);
+    minZoom: 3
+});
 
 L.tileLayer('https://{s}.basemaps.cartocdn.com/light_all/{z}/{x}/{y}{r}.png').addTo(map); // Changed to Positron for higher contrast
 
+map.fitBounds(DEFAULT_MAP_BOUNDS, getDefaultMapFitOptions());
+
 map.on('click', (e) => {
+    if (seasonEnded || guessLocked) return;
+
     if (guessMarker) map.removeLayer(guessMarker);
     currentGuess = e.latlng;
 

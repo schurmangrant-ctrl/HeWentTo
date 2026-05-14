@@ -12,6 +12,14 @@ mixModeBtn.addEventListener('click', () => {
     startGame();
 });
 
+scoreToggleBtn.addEventListener('click', () => {
+    const isExpanded = scoreToggleBtn.getAttribute('aria-expanded') === 'true';
+
+    scoreToggleBtn.setAttribute('aria-expanded', String(!isExpanded));
+    scoreToggleIcon.innerText = isExpanded ? '+' : '-';
+    scoreList.classList.toggle('hidden', isExpanded);
+});
+
 function startGame() {
     modeSelector.classList.add('hidden');
     endSeasonBtn.classList.remove('hidden');
@@ -51,14 +59,19 @@ function loadPlayer() {
     guessBtn.className = "mt-4 w-full bg-slate-200 text-slate-400 font-black py-4 rounded-xl cursor-not-allowed uppercase italic";
     guessBtn.disabled = false;
     guessLocked = false;
+    playerCard.classList.remove('hidden');
 
     // Clear previous markers
+    if (flightAnimationFrame) {
+        cancelAnimationFrame(flightAnimationFrame);
+        flightAnimationFrame = null;
+    }
     if (guessMarker) map.removeLayer(guessMarker);
     if (flightPath) map.removeLayer(flightPath);
     if (targetMarker) map.removeLayer(targetMarker);
     currentGuess = null;
 
-    map.flyTo(INITIAL_VIEW, INITIAL_ZOOM, { duration: 1.5 });
+    map.flyToBounds(DEFAULT_MAP_BOUNDS, getDefaultMapFitOptions(1.5));
 }
 
 guessBtn.addEventListener('click', () => {
@@ -70,21 +83,22 @@ guessBtn.addEventListener('click', () => {
     guessBtn.disabled = true;
     guessBtn.className = "mt-4 w-full bg-slate-300 text-slate-500 font-black py-4 rounded-xl cursor-wait uppercase italic text-lg";
     guessBtn.innerText = "Locked In";
+    playerCard.classList.add('hidden');
 
     const p = players[currentRound];
     const target = L.latLng(p.lat, p.lng);
     const dist = map.distance(currentGuess, target) * MILES_PER_METER;
+    const bounds = L.latLngBounds([currentGuess, target]);
+    const revealDuration = 2200;
 
-    flightPath = L.polyline([currentGuess, target], {
-        color: '#2563eb', weight: 4, dashArray: '10, 15', opacity: 0.6
-    }).addTo(map);
+    map.fitBounds(bounds, getResultMapFitOptions());
+    const revealPromise = animateFlightPath(currentGuess, target, revealDuration).then(() => {
+        if (seasonEnded) return;
 
-    targetMarker = L.circleMarker(target, {
-        radius: 10, fillColor: "#16a34a", color: "white", weight: 4, fillOpacity: 1
-    }).addTo(map);
-
-    const group = new L.featureGroup([guessMarker, targetMarker]);
-    map.fitBounds(group.getBounds(), { padding: [100, 100], duration: 1.2 });
+        targetMarker = L.circleMarker(target, {
+            radius: 10, fillColor: "#16a34a", color: "white", weight: 4, fillOpacity: 1
+        }).addTo(map);
+    });
 
     const score = calculateScore(dist);
     totalScore += score;
@@ -92,6 +106,9 @@ guessBtn.addEventListener('click', () => {
     updateScoreTracker(); // Update the tracker
 
     setTimeout(async () => {
+        if (seasonEnded) return;
+
+        await revealPromise;
         if (seasonEnded) return;
 
         modalCollegeName.innerText = p.college;
