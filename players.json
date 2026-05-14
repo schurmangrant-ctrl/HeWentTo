@@ -500,16 +500,6 @@
     "difficulty": "Medium"
   },
   {
-    "name": "LeBron James",
-    "sport": "basketball",
-    "startYear": 2003,
-    "endYear": 2003,
-    "college": "None",
-    "lat": 0.0,
-    "lng": 0.0,
-    "difficulty": "Easy"
-  },
-  {
     "name": "Michael Jordan",
     "sport": "basketball",
     "startYear": 1981,
@@ -517,16 +507,6 @@
     "college": "North Carolina",
     "lat": 35.9049,
     "lng": -79.0469,
-    "difficulty": "Easy"
-  },
-  {
-    "name": "Kobe Bryant",
-    "sport": "basketball",
-    "startYear": 1996,
-    "endYear": 1996,
-    "college": "None",
-    "lat": 0.0,
-    "lng": 0.0,
     "difficulty": "Easy"
   },
   {
@@ -617,16 +597,6 @@
     "college": "UCLA",
     "lat": 34.0689,
     "lng": -118.4452,
-    "difficulty": "Easy"
-  },
-  {
-    "name": "LaMelo Ball",
-    "sport": "basketball",
-    "startYear": 2018,
-    "endYear": 2018,
-    "college": "None",
-    "lat": 0.0,
-    "lng": 0.0,
     "difficulty": "Easy"
   },
   {
@@ -748,36 +718,6 @@
     "lat": 38.0307,
     "lng": -84.504,
     "difficulty": "Easy"
-  },
-  {
-    "name": "Nikola Jokic",
-    "sport": "basketball",
-    "startYear": 2014,
-    "endYear": 2014,
-    "college": "None",
-    "lat": 0.0,
-    "lng": 0.0,
-    "difficulty": "Hard"
-  },
-  {
-    "name": "Luka Doncic",
-    "sport": "basketball",
-    "startYear": 2015,
-    "endYear": 2018,
-    "college": "None",
-    "lat": 0.0,
-    "lng": 0.0,
-    "difficulty": "Medium"
-  },
-  {
-    "name": "Victor Wembanyama",
-    "sport": "basketball",
-    "startYear": 2019,
-    "endYear": 2023,
-    "college": "None",
-    "lat": 0.0,
-    "lng": 0.0,
-    "difficulty": "Medium"
   },
   {
     "name": "Jrue Holiday",
@@ -1498,16 +1438,6 @@
     "lat": 29.6436,
     "lng": -82.3549,
     "difficulty": "Medium"
-  },
-  {
-    "name": "Jalen Green",
-    "sport": "basketball",
-    "startYear": 2020,
-    "endYear": 2021,
-    "college": "None",
-    "lat": 0.0,
-    "lng": 0.0,
-    "difficulty": "Hard"
   },
   {
     "name": "Austin Reaves",

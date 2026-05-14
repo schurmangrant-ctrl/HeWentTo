@@ -1,8 +1,8 @@
 const map = L.map('map', {
     zoomControl: false,
     attributionControl: false,
-    maxBounds: DEFAULT_MAP_BOUNDS, // Tighter bounds for continental US
-    maxBoundsViscosity: 1.0,
+    maxBounds: getMapMaxBounds(),
+    maxBoundsViscosity: 0.25,
     minZoom: 3
 });
 

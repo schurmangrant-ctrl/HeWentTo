@@ -1,6 +1,7 @@
 // Constants
 const MAX_PLAYERS = 5;
 const DEFAULT_MAP_BOUNDS = L.latLngBounds(L.latLng(24.5, -125.0), L.latLng(49.0, -66.0));
+const MOBILE_MAP_BOUNDS = L.latLngBounds(L.latLng(10.0, -150.0), L.latLng(65.0, -45.0));
 const MILES_PER_METER = 0.000621371;
 const PERFECT_DISTANCE = 10; // Changed to 10 miles
 const MAX_SCORE = 5000;
@@ -73,6 +74,11 @@ const getDefaultMapFitOptions = (duration = 0) => ({
     padding: [16, 16],
     duration
 });
+const getMapMaxBounds = () => {
+    const isMobile = window.matchMedia('(max-width: 767px)').matches;
+
+    return isMobile ? MOBILE_MAP_BOUNDS : DEFAULT_MAP_BOUNDS;
+};
 const animateFlightPath = (start, end, duration = 2200) => new Promise((resolve) => {
     const startLat = start.lat;
     const startLng = start.lng;
