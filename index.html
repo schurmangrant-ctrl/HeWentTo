@@ -47,10 +47,17 @@
             <!-- New Score Tracker -->
             <div id="score-tracker" class="bg-slate-100 p-3 rounded-xl border border-slate-200 mt-4">
                 <button id="score-toggle-btn" class="w-full flex items-center justify-between text-left text-sm font-black uppercase tracking-widest text-slate-700" type="button" aria-expanded="false">
-                    <span>Player Scores</span>
+                    <span>Stats</span>
                     <span id="score-toggle-icon" aria-hidden="true">+</span>
                 </button>
-                <ul id="score-list" class="hidden mt-2 space-y-1 text-xs font-bold text-slate-900"></ul>
+                <div id="score-panel" class="hidden mt-2">
+                    <div class="md:hidden mb-3 bg-white rounded-lg border border-slate-200 p-3">
+                        <p class="text-[10px] text-slate-400 uppercase font-black tracking-widest mb-1">Career Points</p>
+                        <p id="mobile-total-score" class="text-3xl font-black text-slate-900 italic leading-none">0</p>
+                    </div>
+                    <p class="text-[10px] text-slate-400 uppercase font-black tracking-widest mb-1">Player Scores</p>
+                    <ul id="score-list" class="space-y-1 text-xs font-bold text-slate-900"></ul>
+                </div>
             </div>
 
             <button id="guess-btn" class="mt-4 w-full bg-slate-200 text-slate-400 font-black py-4 rounded-xl cursor-not-allowed transition-all uppercase italic">
@@ -58,7 +65,7 @@
             </button>
         </div>
 
-        <div id="career-score-card" class="md:fixed md:top-4 md:right-4 bg-white/95 border-2 border-slate-200 p-4 rounded-2xl text-right pointer-events-auto shadow-lg">
+        <div id="career-score-card" class="hidden md:block md:fixed md:top-4 md:right-4 bg-white/95 border-2 border-slate-200 p-4 rounded-2xl text-right pointer-events-auto shadow-lg">
             <p class="text-[10px] text-slate-400 uppercase font-black tracking-widest mb-1">Career Points</p>
             <p id="total-score" class="text-4xl font-black text-slate-900 italic leading-none">0</p>
         </div>
@@ -78,6 +85,11 @@
                 Next Player
             </button>
         </div>
+    </div>
+
+    <div id="timer-display" class="fixed bottom-4 left-4 z-[3000] bg-slate-900 text-white px-4 py-3 rounded-xl border-2 border-white/80 shadow-xl min-w-32 flex items-center justify-between gap-4">
+        <span class="text-[10px] uppercase font-black tracking-widest text-slate-300">Shot Clock</span>
+        <span id="timer-value" class="text-2xl font-black italic leading-none">60</span>
     </div>
 
     <button id="end-season-btn" class="hidden fixed bottom-4 right-4 z-[3000] bg-slate-900/90 text-white border-2 border-white/80 font-black px-5 py-3 rounded-xl shadow-xl hover:bg-red-600 transition-all uppercase italic">

@@ -17,13 +17,47 @@ scoreToggleBtn.addEventListener('click', () => {
 
     scoreToggleBtn.setAttribute('aria-expanded', String(!isExpanded));
     scoreToggleIcon.innerText = isExpanded ? '+' : '-';
-    scoreList.classList.toggle('hidden', isExpanded);
+    scorePanel.classList.toggle('hidden', isExpanded);
 });
 
 function startGame() {
     modeSelector.classList.add('hidden');
     endSeasonBtn.classList.remove('hidden');
     initGame();
+}
+
+function updateTimerDisplay(seconds) {
+    timeRemaining = Math.max(0, Math.ceil(seconds));
+    timerValueEl.innerText = timeRemaining;
+}
+
+function stopRoundTimer() {
+    if (!timerInterval) return;
+
+    clearInterval(timerInterval);
+    timerInterval = null;
+}
+
+function getSecondsRemaining() {
+    if (!roundStartedAt) return ROUND_TIME_LIMIT;
+
+    const elapsedSeconds = (Date.now() - roundStartedAt) / 1000;
+    return Math.max(0, ROUND_TIME_LIMIT - elapsedSeconds);
+}
+
+function startRoundTimer() {
+    stopRoundTimer();
+    roundStartedAt = Date.now();
+    updateTimerDisplay(ROUND_TIME_LIMIT);
+
+    timerInterval = setInterval(() => {
+        const secondsRemaining = getSecondsRemaining();
+        updateTimerDisplay(secondsRemaining);
+
+        if (secondsRemaining <= 0) {
+            handleTimeExpired();
+        }
+    }, 250);
 }
 
 // --- FETCH AND INITIALIZE DATABASE ---
@@ -60,6 +94,9 @@ async function loadPlayer() {
     guessBtn.className = "mt-4 w-full bg-slate-200 text-slate-400 font-black py-4 rounded-xl cursor-not-allowed uppercase italic";
     guessBtn.disabled = false;
     guessLocked = false;
+    roundStartedAt = null;
+    updateTimerDisplay(ROUND_TIME_LIMIT);
+    stopRoundTimer();
 
     // Clear previous markers
     if (flightAnimationFrame) {
@@ -76,6 +113,7 @@ async function loadPlayer() {
     if (seasonEnded || p !== players[currentRound]) return;
 
     playerCard.classList.remove('hidden');
+    startRoundTimer();
 }
 
 guessBtn.addEventListener('click', () => {
@@ -84,6 +122,8 @@ guessBtn.addEventListener('click', () => {
     if (!currentGuess) return;
 
     guessLocked = true;
+    const secondsRemaining = getSecondsRemaining();
+    stopRoundTimer();
     guessBtn.disabled = true;
     guessBtn.className = "mt-4 w-full bg-slate-300 text-slate-500 font-black py-4 rounded-xl cursor-wait uppercase italic text-lg";
     guessBtn.innerText = "Locked In";
@@ -104,7 +144,7 @@ guessBtn.addEventListener('click', () => {
         }).addTo(map);
     });
 
-    const score = calculateScore(dist);
+    const score = calculateTimedScore(dist, secondsRemaining);
     totalScore += score;
     playerScores.push({ name: p.name, score: score }); // Add to player scores
     updateScoreTracker(); // Update the tracker
@@ -123,8 +163,33 @@ guessBtn.addEventListener('click', () => {
 
         resultModal.classList.remove('hidden');
         totalScoreEl.innerText = totalScore.toLocaleString();
+        mobileTotalScoreEl.innerText = totalScore.toLocaleString();
     }, 1300);
 });
+
+async function handleTimeExpired() {
+    if (seasonEnded || guessLocked) return;
+
+    stopRoundTimer();
+    guessLocked = true;
+    updateTimerDisplay(0);
+    playerCard.classList.add('hidden');
+
+    const p = players[currentRound];
+    playerScores.push({ name: p.name, score: 0 });
+    updateScoreTracker();
+
+    document.getElementById('modal-result-title').innerText = "Time's Up";
+    modalCollegeName.innerText = p.college;
+    modalDistance.innerText = "No pin selected";
+    modalScoreEarned.innerText = "+0";
+    await displayCollegeLogo(p.college);
+    if (seasonEnded || p !== players[currentRound]) return;
+
+    resultModal.classList.remove('hidden');
+    totalScoreEl.innerText = totalScore.toLocaleString();
+    mobileTotalScoreEl.innerText = totalScore.toLocaleString();
+}
 
 nextBtn.addEventListener('click', () => {
     if (seasonEnded) {
@@ -133,6 +198,7 @@ nextBtn.addEventListener('click', () => {
     }
 
     resultModal.classList.add('hidden');
+    document.getElementById('modal-result-title').innerText = "Campus Located";
     currentRound++;
     loadPlayer();
 });
@@ -147,6 +213,7 @@ function updateScoreTracker() {
 
 function showFinalResults() {
     seasonEnded = true;
+    stopRoundTimer();
     endSeasonBtn.classList.add('hidden');
     clearCollegeLogo(true);
     document.getElementById('modal-result-title').innerText = "Draft Complete";
