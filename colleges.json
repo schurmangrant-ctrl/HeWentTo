@@ -1,0 +1,5856 @@
+[
+  {
+    "college-id": "abilene-christian",
+    "name": "Abilene Christian",
+    "long": "Abilene Christian University"
+  },
+  {
+    "college-id": "academy-of-art",
+    "name": "Academy of Art",
+    "long": "Academy of Art University"
+  },
+  {
+    "college-id": "adams-st",
+    "name": "Adams State",
+    "long": "Adams State University"
+  },
+  {
+    "college-id": "adelphi",
+    "name": "Adelphi",
+    "long": "Adelphi University"
+  },
+  {
+    "college-id": "adrian",
+    "name": "Adrian",
+    "long": "Adrian College"
+  },
+  {
+    "college-id": "agnes-scott",
+    "name": "Agnes Scott",
+    "long": "Agnes Scott College"
+  },
+  {
+    "college-id": "air-force",
+    "name": "Air Force",
+    "long": "Air Force Academy"
+  },
+  {
+    "college-id": "akron",
+    "name": "Akron",
+    "long": "University of Akron"
+  },
+  {
+    "college-id": "ala-huntsville",
+    "name": "Alabama-Huntsville",
+    "long": "University of Alabama-Huntsville"
+  },
+  {
+    "college-id": "alabama",
+    "name": "Alabama",
+    "long": "University of Alabama"
+  },
+  {
+    "college-id": "alabama-am",
+    "name": "Alabama A&M",
+    "long": "Alabama A&M University"
+  },
+  {
+    "college-id": "alabama-st",
+    "name": "Alabama State",
+    "long": "Alabama State University"
+  },
+  {
+    "college-id": "alas-anchorage",
+    "name": "Alas. Anchorage",
+    "long": "University of Alaska-Anchorage"
+  },
+  {
+    "college-id": "alas-fairbanks",
+    "name": "Alas. Fairbanks",
+    "long": "University of Alaska-Fairbanks"
+  },
+  {
+    "college-id": "albany-ny",
+    "name": "Albany (NY)",
+    "long": "University at Albany"
+  },
+  {
+    "college-id": "albany-st-ga",
+    "name": "Albany State (GA)",
+    "long": "Albany State University"
+  },
+  {
+    "college-id": "albertus-magnus",
+    "name": "Albertus Magnus",
+    "long": "Albertus Magnus College"
+  },
+  {
+    "college-id": "albion",
+    "name": "Albion",
+    "long": "Albion College"
+  },
+  {
+    "college-id": "albright",
+    "name": "Albright",
+    "long": "Albright College"
+  },
+  {
+    "college-id": "alcorn",
+    "name": "Alcorn State",
+    "long": "Alcorn State University"
+  },
+  {
+    "college-id": "alderson-broaddus",
+    "name": "Alderson Broaddus",
+    "long": "Alderson-Broaddus University"
+  },
+  {
+    "college-id": "alfred",
+    "name": "Alfred",
+    "long": "Alfred University"
+  },
+  {
+    "college-id": "alfred-st",
+    "name": "Alfred State",
+    "long": "Alfred State College"
+  },
+  {
+    "college-id": "allegheny",
+    "name": "Allegheny",
+    "long": "Allegheny College"
+  },
+  {
+    "college-id": "allen",
+    "name": "Allen",
+    "long": "Allen"
+  },
+  {
+    "college-id": "alma",
+    "name": "Alma",
+    "long": "Alma College"
+  },
+  {
+    "college-id": "alvernia",
+    "name": "Alvernia",
+    "long": "Alvernia University"
+  },
+  {
+    "college-id": "alverno",
+    "name": "Alverno",
+    "long": "Alverno College"
+  },
+  {
+    "college-id": "am-corpus-chris",
+    "name": "Texas-Am-Corpus",
+    "long": "Texas A&M-Corpus Christi"
+  },
+  {
+    "college-id": "american",
+    "name": "American",
+    "long": "American University"
+  },
+  {
+    "college-id": "american-intl",
+    "name": "American Int'l",
+    "long": "American International College"
+  },
+  {
+    "college-id": "american-pr",
+    "name": "American (PR)",
+    "long": "American University of Puerto Rico"
+  },
+  {
+    "college-id": "amherst",
+    "name": "Amherst",
+    "long": "Amherst College"
+  },
+  {
+    "college-id": "anderson-in",
+    "name": "Anderson (IN)",
+    "long": "Anderson University (Ind.)"
+  },
+  {
+    "college-id": "anderson-sc",
+    "name": "Anderson (SC)",
+    "long": "Anderson University (S.C.)"
+  },
+  {
+    "college-id": "angelo-st",
+    "name": "Angelo State",
+    "long": "Angelo State University"
+  },
+  {
+    "college-id": "anna-maria",
+    "name": "Anna Maria",
+    "long": "Anna Maria College"
+  },
+  {
+    "college-id": "appalachian-st",
+    "name": "Appalachian State",
+    "long": "Appalachian State University"
+  },
+  {
+    "college-id": "arcadia",
+    "name": "Arcadia",
+    "long": "Arcadia University"
+  },
+  {
+    "college-id": "arizona",
+    "name": "Arizona",
+    "long": "University of Arizona"
+  },
+  {
+    "college-id": "arizona-st",
+    "name": "Arizona State",
+    "long": "Arizona State University"
+  },
+  {
+    "college-id": "ark-fort-smith",
+    "name": "Ark. - Fort Smith",
+    "long": "University of Arkansas-Fort Smith"
+  },
+  {
+    "college-id": "ark-monticello",
+    "name": "Ark.-Monticello",
+    "long": "University of Arkansas-Monticello"
+  },
+  {
+    "college-id": "ark-pine-bluff",
+    "name": "Ark.-Pine Bluff",
+    "long": "University of Arkansas-Pine Bluff"
+  },
+  {
+    "college-id": "arkansas",
+    "name": "Arkansas",
+    "long": "University of Arkansas"
+  },
+  {
+    "college-id": "arkansas-st",
+    "name": "Arkansas State",
+    "long": "Arkansas State University"
+  },
+  {
+    "college-id": "arkansas-tech",
+    "name": "Arkansas Tech",
+    "long": "Arkansas Tech University"
+  },
+  {
+    "college-id": "armstrong",
+    "name": "Armstrong",
+    "long": "Armstrong State University"
+  },
+  {
+    "college-id": "army",
+    "name": "Army",
+    "long": "Army West Point"
+  },
+  {
+    "college-id": "asbury",
+    "name": "Asbury University",
+    "long": "Asbury University"
+  },
+  {
+    "college-id": "ashland",
+    "name": "Ashland",
+    "long": "Ashland University"
+  },
+  {
+    "college-id": "assumption",
+    "name": "Assumption",
+    "long": "Assumption College"
+  },
+  {
+    "college-id": "aub-montgomery",
+    "name": "Auburn-Montgomery"
+  },
+  {
+    "college-id": "auburn",
+    "name": "Auburn",
+    "long": "Auburn University"
+  },
+  {
+    "college-id": "augsburg",
+    "name": "Augsburg",
+    "long": "Augsburg University"
+  },
+  {
+    "college-id": "augustana-il",
+    "name": "Augustana (IL)",
+    "long": "Augustana College (IL)"
+  },
+  {
+    "college-id": "augustana-sd",
+    "name": "Augustana (SD)",
+    "long": "Augustana University (SD)"
+  },
+  {
+    "college-id": "aurora",
+    "name": "Aurora",
+    "long": "Aurora University"
+  },
+  {
+    "college-id": "austin",
+    "name": "Austin",
+    "long": "Austin College"
+  },
+  {
+    "college-id": "austin-peay",
+    "name": "Austin Peay",
+    "long": "Austin Peay State University"
+  },
+  {
+    "college-id": "averett",
+    "name": "Averett",
+    "long": "Averett University"
+  },
+  {
+    "college-id": "azusa-pacific",
+    "name": "Azusa Pacific",
+    "long": "Azusa Pacific University"
+  },
+  {
+    "college-id": "babson",
+    "name": "Babson",
+    "long": "Babson College"
+  },
+  {
+    "college-id": "bakersfield",
+    "name": "CSU Bakersfield",
+    "long": "CSU Bakersfield"
+  },
+  {
+    "college-id": "baldwin-wallace",
+    "name": "Baldwin Wallace",
+    "long": "Baldwin Wallace University"
+  },
+  {
+    "college-id": "ball-st",
+    "name": "Ball State",
+    "long": "Ball State University"
+  },
+  {
+    "college-id": "baptist-bible-pa",
+    "name": "Clarks Summit University",
+    "long": "Clarks Summit University"
+  },
+  {
+    "college-id": "bard",
+    "name": "Bard",
+    "long": "Bard College"
+  },
+  {
+    "college-id": "barry",
+    "name": "Barry",
+    "long": "Barry University"
+  },
+  {
+    "college-id": "barton",
+    "name": "Barton",
+    "long": "Barton College"
+  },
+  {
+    "college-id": "baruch",
+    "name": "Baruch",
+    "long": "Baruch College"
+  },
+  {
+    "college-id": "bates",
+    "name": "Bates",
+    "long": "Bates College"
+  },
+  {
+    "college-id": "bay-path",
+    "name": "Bay Path",
+    "long": "Bay Path University"
+  },
+  {
+    "college-id": "baylor",
+    "name": "Baylor",
+    "long": "Baylor University"
+  },
+  {
+    "college-id": "becker",
+    "name": "Becker",
+    "long": "Becker College"
+  },
+  {
+    "college-id": "belhaven",
+    "name": "Belhaven",
+    "long": "Belhaven University"
+  },
+  {
+    "college-id": "bellarmine",
+    "name": "Bellarmine",
+    "long": "Bellarmine University"
+  },
+  {
+    "college-id": "belmont",
+    "name": "Belmont",
+    "long": "Belmont University"
+  },
+  {
+    "college-id": "belmont-abbey",
+    "name": "Belmont Abbey",
+    "long": "Belmont Abbey College"
+  },
+  {
+    "college-id": "beloit",
+    "name": "Beloit",
+    "long": "Beloit College"
+  },
+  {
+    "college-id": "bemidji-st",
+    "name": "Bemidji State",
+    "long": "Bemidji State University"
+  },
+  {
+    "college-id": "benedict",
+    "name": "Benedict",
+    "long": "Benedict College"
+  },
+  {
+    "college-id": "benedictine-il",
+    "name": "Benedictine (IL)",
+    "long": "Benedictine University"
+  },
+  {
+    "college-id": "bentley",
+    "name": "Bentley",
+    "long": "Bentley University"
+  },
+  {
+    "college-id": "berea",
+    "name": "Berea College",
+    "long": "Berea College"
+  },
+  {
+    "college-id": "berry",
+    "name": "Berry",
+    "long": "Berry College"
+  },
+  {
+    "college-id": "bethany-lutheran",
+    "name": "Bethany Lutheran",
+    "long": "Bethany Lutheran College"
+  },
+  {
+    "college-id": "bethany-wv",
+    "name": "Bethany (WV)",
+    "long": "Bethany College"
+  },
+  {
+    "college-id": "bethel-mn",
+    "name": "Bethel (MN)",
+    "long": "Bethel University"
+  },
+  {
+    "college-id": "bethune-cookman",
+    "name": "Bethune-Cookman",
+    "long": "Bethune-Cookman University"
+  },
+  {
+    "college-id": "binghamton",
+    "name": "Binghamton",
+    "long": "Binghamton University"
+  },
+  {
+    "college-id": "biola",
+    "name": "Biola",
+    "long": "Biola University"
+  },
+  {
+    "college-id": "birmingham-so",
+    "name": "Birmingham-So.",
+    "long": "Birmingham-Southern College"
+  },
+  {
+    "college-id": "black-hills-st",
+    "name": "Black Hills State",
+    "long": "Black Hills State University"
+  },
+  {
+    "college-id": "blackburn",
+    "name": "Blackburn",
+    "long": "Blackburn College"
+  },
+  {
+    "college-id": "bloomfield",
+    "name": "Bloomfield",
+    "long": "Bloomfield College"
+  },
+  {
+    "college-id": "bloomsburg",
+    "name": "Bloomsburg",
+    "long": "Bloomsburg University"
+  },
+  {
+    "college-id": "bluefield-st",
+    "name": "Bluefield State",
+    "long": "Bluefield State College"
+  },
+  {
+    "college-id": "bluffton",
+    "name": "Bluffton",
+    "long": "Bluffton University"
+  },
+  {
+    "college-id": "boise-st",
+    "name": "Boise State",
+    "long": "Boise State University"
+  },
+  {
+    "college-id": "boston-college",
+    "name": "Boston College",
+    "long": "Boston College"
+  },
+  {
+    "college-id": "boston-u",
+    "name": "Boston U.",
+    "long": "Boston University"
+  },
+  {
+    "college-id": "bowdoin",
+    "name": "Bowdoin",
+    "long": "Bowdoin College"
+  },
+  {
+    "college-id": "bowie-st",
+    "name": "Bowie State",
+    "long": "Bowie State University"
+  },
+  {
+    "college-id": "bowling-green",
+    "name": "Bowling Green",
+    "long": "Bowling Green State University"
+  },
+  {
+    "college-id": "bradley",
+    "name": "Bradley",
+    "long": "Bradley University"
+  },
+  {
+    "college-id": "brandeis",
+    "name": "Brandeis",
+    "long": "Brandeis University"
+  },
+  {
+    "college-id": "brevard",
+    "name": "Brevard",
+    "long": "Brevard College"
+  },
+  {
+    "college-id": "bridgeport",
+    "name": "Bridgeport",
+    "long": "University of Bridgeport"
+  },
+  {
+    "college-id": "bridgewater-st",
+    "name": "Bridgewater State",
+    "long": "Bridgewater State University"
+  },
+  {
+    "college-id": "bridgewater-va",
+    "name": "Bridgewater (VA)",
+    "long": "Bridgewater College"
+  },
+  {
+    "college-id": "brooklyn",
+    "name": "Brooklyn",
+    "long": "Brooklyn College"
+  },
+  {
+    "college-id": "brown",
+    "name": "Brown",
+    "long": "Brown University"
+  },
+  {
+    "college-id": "bryant",
+    "name": "Bryant",
+    "long": "Bryant University"
+  },
+  {
+    "college-id": "bryn-athyn",
+    "name": "Bryn Athyn",
+    "long": "Bryn Athyn College"
+  },
+  {
+    "college-id": "bryn-mawr",
+    "name": "Bryn Mawr",
+    "long": "Bryn Mawr College"
+  },
+  {
+    "college-id": "bucknell",
+    "name": "Bucknell",
+    "long": "Bucknell University"
+  },
+  {
+    "college-id": "buena-vista",
+    "name": "Buena Vista",
+    "long": "Buena Vista University"
+  },
+  {
+    "college-id": "buffalo",
+    "name": "Buffalo",
+    "long": "University at Buffalo"
+  },
+  {
+    "college-id": "buffalo-st",
+    "name": "Buffalo State",
+    "long": "Buffalo State College"
+  },
+  {
+    "college-id": "butler",
+    "name": "Butler",
+    "long": "Butler University"
+  },
+  {
+    "college-id": "byu",
+    "name": "BYU",
+    "long": "Brigham Young University"
+  },
+  {
+    "college-id": "byu-hawaii",
+    "name": "BYU-Hawaii",
+    "long": "BYU-Hawaii"
+  },
+  {
+    "college-id": "cabrini",
+    "name": "Cabrini",
+    "long": "Cabrini University"
+  },
+  {
+    "college-id": "cairn",
+    "name": "Cairn",
+    "long": "Cairn University"
+  },
+  {
+    "college-id": "cal-lutheran",
+    "name": "Cal Lutheran",
+    "long": "California Lutheran University"
+  },
+  {
+    "college-id": "cal-poly",
+    "name": "Cal Poly",
+    "long": "Cal Poly"
+  },
+  {
+    "college-id": "cal-poly-pomona",
+    "name": "Cal Poly Pomona",
+    "long": "Cal Poly Pomona"
+  },
+  {
+    "college-id": "cal-st-dom-hills",
+    "name": "Cal State Dom. Hills",
+    "long": "Cal State-Dominguez Hills"
+  },
+  {
+    "college-id": "cal-st-east-bay",
+    "name": "Cal State East Bay",
+    "long": "Cal State-East Bay"
+  },
+  {
+    "college-id": "cal-st-fullerton",
+    "name": "Cal State Fullerton",
+    "long": "Cal State-Fullerton"
+  },
+  {
+    "college-id": "cal-st-la",
+    "name": "Cal State LA",
+    "long": "Cal State-Los Angeles"
+  },
+  {
+    "college-id": "cal-st-monterey-bay",
+    "name": "Cal State Monterey Bay",
+    "long": "Cal State-Monterey Bay"
+  },
+  {
+    "college-id": "cal-st-northridge",
+    "name": "Cal State Northridge",
+    "long": "Cal State-Northridge"
+  },
+  {
+    "college-id": "cal-st-san-bdino",
+    "name": "Cal State San B'dino",
+    "long": "Cal State-San Bernardino"
+  },
+  {
+    "college-id": "cal-st-san-marcos",
+    "name": "Cal State-San Marcos"
+  },
+  {
+    "college-id": "cal-st-stanislaus",
+    "name": "Cal State Stanislaus",
+    "long": "Cal State-Stanislaus"
+  },
+  {
+    "college-id": "caldwell",
+    "name": "Caldwell",
+    "long": "Caldwell University"
+  },
+  {
+    "college-id": "california",
+    "name": "California",
+    "long": "University of California"
+  },
+  {
+    "college-id": "california-baptist",
+    "name": "Cal Baptist",
+    "long": "California Baptist University"
+  },
+  {
+    "college-id": "california-pa",
+    "name": "California (PA)",
+    "long": "California University of Pennsylvania"
+  },
+  {
+    "college-id": "caltech",
+    "name": "Caltech",
+    "long": "California Institute of Technology"
+  },
+  {
+    "college-id": "calvin",
+    "name": "Calvin",
+    "long": "Calvin College"
+  },
+  {
+    "college-id": "cameron",
+    "name": "Cameron",
+    "long": "Cameron University"
+  },
+  {
+    "college-id": "campbell",
+    "name": "Campbell",
+    "long": "Campbell University"
+  },
+  {
+    "college-id": "canisius",
+    "name": "Canisius",
+    "long": "Canisius College"
+  },
+  {
+    "college-id": "capital",
+    "name": "Capital",
+    "long": "Capital University"
+  },
+  {
+    "college-id": "carleton",
+    "name": "Carleton",
+    "long": "Carleton College"
+  },
+  {
+    "college-id": "carnegie-mellon",
+    "name": "Carnegie Mellon",
+    "long": "Carnegie Mellon University"
+  },
+  {
+    "college-id": "carroll-wi",
+    "name": "Carroll (WI)",
+    "long": "Carroll University"
+  },
+  {
+    "college-id": "carson-newman",
+    "name": "Carson-Newman",
+    "long": "Carson-Newman College"
+  },
+  {
+    "college-id": "carthage",
+    "name": "Carthage",
+    "long": "Carthage College"
+  },
+  {
+    "college-id": "case",
+    "name": "Case Western Reserve",
+    "long": "Case Western Reserve University"
+  },
+  {
+    "college-id": "castleton",
+    "name": "Castleton",
+    "long": "Castleton University"
+  },
+  {
+    "college-id": "catawba",
+    "name": "Catawba",
+    "long": "Catawba College"
+  },
+  {
+    "college-id": "catholic",
+    "name": "Catholic",
+    "long": "Catholic University"
+  },
+  {
+    "college-id": "cazenovia",
+    "name": "Cazenovia",
+    "long": "Cazenovia College"
+  },
+  {
+    "college-id": "ccny",
+    "name": "CCNY",
+    "long": "City College of New York"
+  },
+  {
+    "college-id": "cedar-crest",
+    "name": "Cedar Crest",
+    "long": "Cedar Crest College"
+  },
+  {
+    "college-id": "cedarville",
+    "name": "Cedarville",
+    "long": "Cedarville University"
+  },
+  {
+    "college-id": "centenary-la",
+    "name": "Centenary (LA)",
+    "long": "Centenary College of Louisiana"
+  },
+  {
+    "college-id": "centenary-nj",
+    "name": "Centenary (NJ)",
+    "long": "Centenary University (N.J.)"
+  },
+  {
+    "college-id": "central-ark",
+    "name": "Central Ark.",
+    "long": "University of Central Arkansas"
+  },
+  {
+    "college-id": "central-conn-st",
+    "name": "Central Conn. State",
+    "long": "Central Connecticut State University"
+  },
+  {
+    "college-id": "central-ia",
+    "name": "Central (IA)",
+    "long": "Central College (Iowa)"
+  },
+  {
+    "college-id": "central-mich",
+    "name": "Central Mich.",
+    "long": "Central Michigan University"
+  },
+  {
+    "college-id": "central-mo",
+    "name": "Central Mo.",
+    "long": "University of Central Missouri"
+  },
+  {
+    "college-id": "central-okla",
+    "name": "Central Okla.",
+    "long": "University of Central Oklahoma"
+  },
+  {
+    "college-id": "central-st-oh",
+    "name": "Central State (OH)",
+    "long": "Central State University"
+  },
+  {
+    "college-id": "central-wash",
+    "name": "Central Wash.",
+    "long": "Central Washington University"
+  },
+  {
+    "college-id": "centre",
+    "name": "Centre",
+    "long": "Centre College"
+  },
+  {
+    "college-id": "chadron-st",
+    "name": "Chadron State",
+    "long": "Chadron State College"
+  },
+  {
+    "college-id": "chaminade",
+    "name": "Chaminade",
+    "long": "Chaminade University"
+  },
+  {
+    "college-id": "chapman",
+    "name": "Chapman",
+    "long": "Chapman University"
+  },
+  {
+    "college-id": "charleston-so",
+    "name": "Charleston So.",
+    "long": "Charleston Southern University"
+  },
+  {
+    "college-id": "charleston-wv",
+    "name": "Charleston (WV)",
+    "long": "University of Charleston"
+  },
+  {
+    "college-id": "charlotte",
+    "name": "Charlotte",
+    "long": "UNC Charlotte"
+  },
+  {
+    "college-id": "chatham",
+    "name": "Chatham",
+    "long": "Chatham University"
+  },
+  {
+    "college-id": "chattanooga",
+    "name": "Tenn-Chattanooga",
+    "long": "University of Tennessee at Chattanooga"
+  },
+  {
+    "college-id": "chestnut-hill",
+    "name": "Chestnut Hill",
+    "long": "Chestnut Hill College"
+  },
+  {
+    "college-id": "cheyney",
+    "name": "Cheyney",
+    "long": "Cheyney University of Pennsylvania"
+  },
+  {
+    "college-id": "chicago",
+    "name": "Chicago",
+    "long": "University of Chicago"
+  },
+  {
+    "college-id": "chicago-st",
+    "name": "Chicago State",
+    "long": "Chicago State University"
+  },
+  {
+    "college-id": "chico-st",
+    "name": "Chico State",
+    "long": "California State University, Chico"
+  },
+  {
+    "college-id": "chowan",
+    "name": "Chowan",
+    "long": "Chowan University"
+  },
+  {
+    "college-id": "chris-newport",
+    "name": "Chris. Newport",
+    "long": "Christopher Newport University"
+  },
+  {
+    "college-id": "christian-bros",
+    "name": "Christian Bros.",
+    "long": "Christian Brothers University"
+  },
+  {
+    "college-id": "cincinnati",
+    "name": "Cincinnati",
+    "long": "University of Cincinnati"
+  },
+  {
+    "college-id": "citadel",
+    "name": "Citadel",
+    "long": "The Citadel"
+  },
+  {
+    "college-id": "city-tech",
+    "name": "New-York-City-Tech",
+    "long": "NYC College of Technology"
+  },
+  {
+    "college-id": "claflin",
+    "name": "Claflin",
+    "long": "Claflin University"
+  },
+  {
+    "college-id": "claremont-m-s",
+    "name": "Claremont-M-S",
+    "long": "Claremont-Mudd-Scripps Colleges"
+  },
+  {
+    "college-id": "clarion",
+    "name": "Clarion",
+    "long": "Clarion University of Pennsylvania"
+  },
+  {
+    "college-id": "clark-atlanta",
+    "name": "Clark Atlanta",
+    "long": "Clark Atlanta University"
+  },
+  {
+    "college-id": "clark-ma",
+    "name": "Clark (MA)",
+    "long": "Clark University"
+  },
+  {
+    "college-id": "clarke",
+    "name": "Clarke",
+    "long": "Clarke University"
+  },
+  {
+    "college-id": "clarkson",
+    "name": "Clarkson",
+    "long": "Clarkson University"
+  },
+  {
+    "college-id": "clayton-st",
+    "name": "Clayton State",
+    "long": "Clayton State University"
+  },
+  {
+    "college-id": "clemson",
+    "name": "Clemson",
+    "long": "Clemson University"
+  },
+  {
+    "college-id": "cleveland-st",
+    "name": "Cleveland State",
+    "long": "Cleveland State University"
+  },
+  {
+    "college-id": "coast-guard",
+    "name": "Coast Guard",
+    "long": "U.S. Coast Guard Academy"
+  },
+  {
+    "college-id": "coastal-caro",
+    "name": "Coastal Caro.",
+    "long": "Coastal Carolina University"
+  },
+  {
+    "college-id": "cobleskill-st",
+    "name": "Suny-Cobleskill",
+    "long": "SUNY, Cobleskill"
+  },
+  {
+    "college-id": "coe",
+    "name": "Coe",
+    "long": "Coe College"
+  },
+  {
+    "college-id": "coker",
+    "name": "Coker",
+    "long": "Coker University"
+  },
+  {
+    "college-id": "col-of-charleston",
+    "name": "Col. of Charleston",
+    "long": "College of Charleston"
+  },
+  {
+    "college-id": "colby",
+    "name": "Colby",
+    "long": "Colby College"
+  },
+  {
+    "college-id": "colby-sawyer",
+    "name": "Colby-Sawyer",
+    "long": "Colby-Sawyer College"
+  },
+  {
+    "college-id": "colgate",
+    "name": "Colgate",
+    "long": "Colgate University"
+  },
+  {
+    "college-id": "colo-christian",
+    "name": "Colo. Christian",
+    "long": "Colorado Christian University"
+  },
+  {
+    "college-id": "colorado",
+    "name": "Colorado",
+    "long": "University of Colorado"
+  },
+  {
+    "college-id": "colorado-col",
+    "name": "Colorado Col.",
+    "long": "Colorado College"
+  },
+  {
+    "college-id": "colorado-mesa",
+    "name": "Colorado Mesa",
+    "long": "Colorado Mesa University"
+  },
+  {
+    "college-id": "colorado-mines",
+    "name": "Colorado School of Mines",
+    "long": "Colorado School of Mines"
+  },
+  {
+    "college-id": "colorado-st",
+    "name": "Colorado State",
+    "long": "Colorado State University"
+  },
+  {
+    "college-id": "colorado-st-pueblo",
+    "name": "Colorado State-Pueblo",
+    "long": "Colorado State University-Pueblo"
+  },
+  {
+    "college-id": "columbia",
+    "name": "Columbia",
+    "long": "Columbia University-Barnard College"
+  },
+  {
+    "college-id": "columbus-st",
+    "name": "Columbus State",
+    "long": "Columbus State University"
+  },
+  {
+    "college-id": "concord",
+    "name": "Concord",
+    "long": "Concord University"
+  },
+  {
+    "college-id": "concordia-chicago",
+    "name": "Concordia Chicago",
+    "long": "Concordia University Chicago"
+  },
+  {
+    "college-id": "concordia-irvine",
+    "name": "Concordia University Irvine",
+    "long": "Concordia University Irvine"
+  },
+  {
+    "college-id": "concordia-mhead",
+    "name": "Concordia-M'head",
+    "long": "Concordia College-Moorhead"
+  },
+  {
+    "college-id": "concordia-ny",
+    "name": "Concordia (NY)",
+    "long": "Concordia College-New York"
+  },
+  {
+    "college-id": "concordia-or",
+    "name": "Concordia University-Portland"
+  },
+  {
+    "college-id": "concordia-st-paul",
+    "name": "Concordia-State Paul",
+    "long": "Concordia University, State Paul"
+  },
+  {
+    "college-id": "concordia-tx",
+    "name": "Concordia (TX)",
+    "long": "Concordia University Texas"
+  },
+  {
+    "college-id": "concordia-wi",
+    "name": "Concordia (Wis.)",
+    "long": "Concordia University Wisconsin"
+  },
+  {
+    "college-id": "connecticut-col",
+    "name": "Connecticut Col.",
+    "long": "Connecticut College"
+  },
+  {
+    "college-id": "converse",
+    "name": "Converse",
+    "long": "Converse College"
+  },
+  {
+    "college-id": "coppin-st",
+    "name": "Coppin State",
+    "long": "Coppin State University"
+  },
+  {
+    "college-id": "cornell",
+    "name": "Cornell",
+    "long": "Cornell University"
+  },
+  {
+    "college-id": "cornell-college",
+    "name": "Cornell College",
+    "long": "Cornell College"
+  },
+  {
+    "college-id": "covenant",
+    "name": "Covenant",
+    "long": "Covenant College"
+  },
+  {
+    "college-id": "creighton",
+    "name": "Creighton",
+    "long": "Creighton University"
+  },
+  {
+    "college-id": "crown-mn",
+    "name": "Crown (MN)",
+    "long": "Crown College"
+  },
+  {
+    "college-id": "curry",
+    "name": "Curry",
+    "long": "Curry College"
+  },
+  {
+    "college-id": "daemen",
+    "name": "Daemen",
+    "long": "Daemen College"
+  },
+  {
+    "college-id": "dallas",
+    "name": "Dallas",
+    "long": "University of Dallas"
+  },
+  {
+    "college-id": "dallas-baptist",
+    "name": "Dallas Baptist",
+    "long": "Dallas Baptist University"
+  },
+  {
+    "college-id": "daniel-webster",
+    "name": "Daniel Webster",
+    "long": "Daniel Webster College"
+  },
+  {
+    "college-id": "dartmouth",
+    "name": "Dartmouth",
+    "long": "Dartmouth College"
+  },
+  {
+    "college-id": "davenport",
+    "name": "Davenport",
+    "long": "Davenport University"
+  },
+  {
+    "college-id": "davidson",
+    "name": "Davidson",
+    "long": "Davidson College"
+  },
+  {
+    "college-id": "davis-elkins",
+    "name": "Davis & Elkins",
+    "long": "Davis and Elkins College"
+  },
+  {
+    "college-id": "dayton",
+    "name": "Dayton",
+    "long": "University of Dayton"
+  },
+  {
+    "college-id": "dean-college",
+    "name": "Dean College",
+    "long": "Dean College"
+  },
+  {
+    "college-id": "delaware",
+    "name": "Delaware",
+    "long": "University of Delaware"
+  },
+  {
+    "college-id": "delaware-st",
+    "name": "Delaware State",
+    "long": "Delaware State University"
+  },
+  {
+    "college-id": "delaware-valley",
+    "name": "Delaware Valley",
+    "long": "Delaware Valley College"
+  },
+  {
+    "college-id": "delta-st",
+    "name": "Delta State",
+    "long": "Delta State University"
+  },
+  {
+    "college-id": "denison",
+    "name": "Denison",
+    "long": "Denison University"
+  },
+  {
+    "college-id": "denver",
+    "name": "Denver",
+    "long": "University of Denver"
+  },
+  {
+    "college-id": "depaul",
+    "name": "DePaul",
+    "long": "DePaul University"
+  },
+  {
+    "college-id": "depauw",
+    "name": "DePauw",
+    "long": "DePauw University"
+  },
+  {
+    "college-id": "desales",
+    "name": "DeSales",
+    "long": "DeSales University"
+  },
+  {
+    "college-id": "detroit",
+    "name": "Detroit",
+    "long": "University of Detroit Mercy"
+  },
+  {
+    "college-id": "dickinson",
+    "name": "Dickinson",
+    "long": "Dickinson College"
+  },
+  {
+    "college-id": "dist-columbia",
+    "name": "DiState Columbia",
+    "long": "University of the District of Columbia"
+  },
+  {
+    "college-id": "dominican-ca",
+    "name": "Dominican (Cal.)",
+    "long": "Dominican University of California"
+  },
+  {
+    "college-id": "dominican-il",
+    "name": "Dominican (IL)",
+    "long": "Dominican University (Ill.)"
+  },
+  {
+    "college-id": "dominican-ny",
+    "name": "Dominican (NY)",
+    "long": "Dominican College (N.Y.)"
+  },
+  {
+    "college-id": "dowling",
+    "name": "Dowling",
+    "long": "Dowling College"
+  },
+  {
+    "college-id": "drake",
+    "name": "Drake",
+    "long": "Drake University"
+  },
+  {
+    "college-id": "drew",
+    "name": "Drew",
+    "long": "Drew University"
+  },
+  {
+    "college-id": "drexel",
+    "name": "Drexel",
+    "long": "Drexel University"
+  },
+  {
+    "college-id": "drury",
+    "name": "Drury",
+    "long": "Drury University"
+  },
+  {
+    "college-id": "dubuque",
+    "name": "Dubuque",
+    "long": "University of Dubuque"
+  },
+  {
+    "college-id": "duke",
+    "name": "Duke",
+    "long": "Duke University"
+  },
+  {
+    "college-id": "duquesne",
+    "name": "Duquesne",
+    "long": "Duquesne University"
+  },
+  {
+    "college-id": "dyouville",
+    "name": "D'Youville",
+    "long": "D'Youville College"
+  },
+  {
+    "college-id": "earlham",
+    "name": "Earlham",
+    "long": "Earlham College"
+  },
+  {
+    "college-id": "east-carolina",
+    "name": "East Carolina",
+    "long": "East Carolina University"
+  },
+  {
+    "college-id": "east-central",
+    "name": "East Central",
+    "long": "East Central University"
+  },
+  {
+    "college-id": "east-mennonite",
+    "name": "EaState Mennonite",
+    "long": "Eastern Mennonite University"
+  },
+  {
+    "college-id": "east-stroudsburg",
+    "name": "East Stroudsburg",
+    "long": "East Stroudsburg University"
+  },
+  {
+    "college-id": "east-tenn-st",
+    "name": "East Tenn. State",
+    "long": "East Tennessee State University"
+  },
+  {
+    "college-id": "east-tex-am",
+    "name": "East Tex. A&M",
+    "long": "East Texas A&M University"
+  },
+  {
+    "college-id": "east-tex-baptist",
+    "name": "East Tex. Baptist",
+    "long": "East Texas Baptist University"
+  },
+  {
+    "college-id": "eastern",
+    "name": "Eastern",
+    "long": "Eastern University"
+  },
+  {
+    "college-id": "eastern-conn-st",
+    "name": "Eastern Conn. State",
+    "long": "Eastern Connecticut State University"
+  },
+  {
+    "college-id": "eastern-ill",
+    "name": "Eastern Ill.",
+    "long": "Eastern Illinois University"
+  },
+  {
+    "college-id": "eastern-ky",
+    "name": "Eastern Ky.",
+    "long": "Eastern Kentucky University"
+  },
+  {
+    "college-id": "eastern-mich",
+    "name": "Eastern Mich.",
+    "long": "Eastern Michigan University"
+  },
+  {
+    "college-id": "eastern-nm",
+    "name": "Eastern N.M.",
+    "long": "Eastern New Mexico University"
+  },
+  {
+    "college-id": "eastern-ore",
+    "name": "Eastern Ore.",
+    "long": "Eastern Oregon University"
+  },
+  {
+    "college-id": "eastern-wash",
+    "name": "Eastern Wash.",
+    "long": "Eastern Washington University"
+  },
+  {
+    "college-id": "eckerd",
+    "name": "Eckerd",
+    "long": "Eckerd College"
+  },
+  {
+    "college-id": "edgewood",
+    "name": "Edgewood",
+    "long": "Edgewood College"
+  },
+  {
+    "college-id": "edinboro",
+    "name": "Edinboro",
+    "long": "Edinboro University"
+  },
+  {
+    "college-id": "edward-waters",
+    "name": "Edward Waters",
+    "long": "Edward Waters"
+  },
+  {
+    "college-id": "elizabeth-city-st",
+    "name": "Elizabeth City State",
+    "long": "Elizabeth City State University"
+  },
+  {
+    "college-id": "elizabethtown",
+    "name": "Elizabethtown",
+    "long": "Elizabethtown College"
+  },
+  {
+    "college-id": "elmhurst",
+    "name": "Elmhurst",
+    "long": "Elmhurst College"
+  },
+  {
+    "college-id": "elmira",
+    "name": "Elmira",
+    "long": "Elmira College"
+  },
+  {
+    "college-id": "elms",
+    "name": "Elms",
+    "long": "Elms College"
+  },
+  {
+    "college-id": "elon",
+    "name": "Elon",
+    "long": "Elon University"
+  },
+  {
+    "college-id": "embry-riddle-fl",
+    "name": "Embry-Riddle University",
+    "long": "Embry-Riddle University"
+  },
+  {
+    "college-id": "emerson",
+    "name": "Emerson",
+    "long": "Emerson College"
+  },
+  {
+    "college-id": "emmanuel-ga",
+    "name": "Emmanuel (Ga.)",
+    "long": "Emmanuel College (Ga.)"
+  },
+  {
+    "college-id": "emmanuel-ma",
+    "name": "Emmanuel (Mass.)",
+    "long": "Emmanuel College (Mass.)"
+  },
+  {
+    "college-id": "emory",
+    "name": "Emory",
+    "long": "Emory University"
+  },
+  {
+    "college-id": "emory-henry",
+    "name": "Emory & Henry",
+    "long": "Emory and Henry College"
+  },
+  {
+    "college-id": "emporia-st",
+    "name": "Emporia State",
+    "long": "Emporia State University"
+  },
+  {
+    "college-id": "endicott",
+    "name": "Endicott",
+    "long": "Endicott College"
+  },
+  {
+    "college-id": "erskine",
+    "name": "Erskine",
+    "long": "Erskine College"
+  },
+  {
+    "college-id": "eureka",
+    "name": "Eureka",
+    "long": "Eureka College"
+  },
+  {
+    "college-id": "evansville",
+    "name": "Evansville",
+    "long": "University of Evansville"
+  },
+  {
+    "college-id": "evergreen-st",
+    "name": "Evergreen State",
+    "long": "Evergreen State"
+  },
+  {
+    "college-id": "fairfield",
+    "name": "Fairfield",
+    "long": "Fairfield University"
+  },
+  {
+    "college-id": "fairmont-st",
+    "name": "Fairmont State",
+    "long": "Fairmont State University"
+  },
+  {
+    "college-id": "farmingdale-st",
+    "name": "Farmingdale State",
+    "long": "Farmingdale State College"
+  },
+  {
+    "college-id": "fayetteville-st",
+    "name": "Fayetteville State",
+    "long": "Fayetteville State University"
+  },
+  {
+    "college-id": "fdu",
+    "name": "FDU",
+    "long": "FDU"
+  },
+  {
+    "college-id": "fdu-florham",
+    "name": "FDU-Florham",
+    "long": "Fairleigh Dickinson Univ., Florham"
+  },
+  {
+    "college-id": "felician",
+    "name": "Felician",
+    "long": "Felician College"
+  },
+  {
+    "college-id": "ferris-st",
+    "name": "Ferris State",
+    "long": "Ferris State University"
+  },
+  {
+    "college-id": "ferrum",
+    "name": "Ferrum",
+    "long": "Ferrum College"
+  },
+  {
+    "college-id": "fgcu",
+    "name": "FGCU",
+    "long": "Florida Gulf Coast University"
+  },
+  {
+    "college-id": "findlay",
+    "name": "Findlay",
+    "long": "University of Findlay"
+  },
+  {
+    "college-id": "finlandia",
+    "name": "Finlandia",
+    "long": "Finlandia University"
+  },
+  {
+    "college-id": "fisk",
+    "name": "Fisk",
+    "long": "Fisk University"
+  },
+  {
+    "college-id": "fitchburg-st",
+    "name": "Fitchburg State",
+    "long": "Fitchburg State University"
+  },
+  {
+    "college-id": "fiu",
+    "name": "FIU",
+    "long": "Florida International University"
+  },
+  {
+    "college-id": "fla-atlantic",
+    "name": "Florida Atlantic",
+    "long": "Florida Atlantic University"
+  },
+  {
+    "college-id": "fla-southern",
+    "name": "Fla. Southern",
+    "long": "Florida Southern College"
+  },
+  {
+    "college-id": "flagler",
+    "name": "Flagler",
+    "long": "Flagler College"
+  },
+  {
+    "college-id": "florida",
+    "name": "Florida",
+    "long": "University of Florida"
+  },
+  {
+    "college-id": "florida-am",
+    "name": "Florida A&M",
+    "long": "Florida A&M University"
+  },
+  {
+    "college-id": "florida-st",
+    "name": "Florida State",
+    "long": "Florida State University"
+  },
+  {
+    "college-id": "florida-tech",
+    "name": "Florida Tech",
+    "long": "Florida Tech"
+  },
+  {
+    "college-id": "fontbonne",
+    "name": "Fontbonne",
+    "long": "Fontbonne University"
+  },
+  {
+    "college-id": "fordham",
+    "name": "Fordham",
+    "long": "Fordham University"
+  },
+  {
+    "college-id": "fort-hays-st",
+    "name": "Fort Hays State",
+    "long": "Fort Hays State University"
+  },
+  {
+    "college-id": "fort-lewis",
+    "name": "Fort Lewis",
+    "long": "Fort Lewis College"
+  },
+  {
+    "college-id": "fort-valley-st",
+    "name": "Fort Valley State",
+    "long": "Fort Valley State University"
+  },
+  {
+    "college-id": "framingham-st",
+    "name": "Framingham State",
+    "long": "Framingham State University"
+  },
+  {
+    "college-id": "francis-marion",
+    "name": "Francis Marion",
+    "long": "Francis Marion University"
+  },
+  {
+    "college-id": "franciscan",
+    "name": "Franciscan",
+    "long": "Franciscan Univ. of Steubenville"
+  },
+  {
+    "college-id": "frank-marsh",
+    "name": "Frank. & Marsh.",
+    "long": "Franklin & Marshall College"
+  },
+  {
+    "college-id": "franklin",
+    "name": "Franklin",
+    "long": "Franklin College"
+  },
+  {
+    "college-id": "franklin-pierce",
+    "name": "Franklin Pierce",
+    "long": "Franklin Pierce University"
+  },
+  {
+    "college-id": "fredonia-st",
+    "name": "Fredonia",
+    "long": "SUNY at Fredonia"
+  },
+  {
+    "college-id": "fresno-pacific",
+    "name": "Fresno Pacific",
+    "long": "Fresno Pacific University"
+  },
+  {
+    "college-id": "fresno-st",
+    "name": "Fresno State",
+    "long": "Fresno State"
+  },
+  {
+    "college-id": "frostburg-st",
+    "name": "Frostburg State",
+    "long": "Frostburg State University"
+  },
+  {
+    "college-id": "furman",
+    "name": "Furman",
+    "long": "Furman University"
+  },
+  {
+    "college-id": "ga-southern",
+    "name": "Georgia Southern",
+    "long": "Georgia Southern University"
+  },
+  {
+    "college-id": "ga-southwestern",
+    "name": "Ga. Southwestern",
+    "long": "Georgia Southwestern State Univ."
+  },
+  {
+    "college-id": "gallaudet",
+    "name": "Gallaudet",
+    "long": "Gallaudet University"
+  },
+  {
+    "college-id": "gannon",
+    "name": "Gannon",
+    "long": "Gannon University"
+  },
+  {
+    "college-id": "gardner-webb",
+    "name": "Gardner-Webb",
+    "long": "Gardner-Webb University"
+  },
+  {
+    "college-id": "geneva",
+    "name": "Geneva",
+    "long": "Geneva College"
+  },
+  {
+    "college-id": "george-fox",
+    "name": "George Fox",
+    "long": "George Fox University"
+  },
+  {
+    "college-id": "george-mason",
+    "name": "George Mason",
+    "long": "George Mason University"
+  },
+  {
+    "college-id": "george-washington",
+    "name": "George Washington",
+    "long": "George Washington University"
+  },
+  {
+    "college-id": "georgetown",
+    "name": "Georgetown",
+    "long": "Georgetown University"
+  },
+  {
+    "college-id": "georgia",
+    "name": "Georgia",
+    "long": "University of Georgia"
+  },
+  {
+    "college-id": "georgia-college",
+    "name": "Georgia College",
+    "long": "Georgia College"
+  },
+  {
+    "college-id": "georgia-st",
+    "name": "Georgia State",
+    "long": "Georgia State University"
+  },
+  {
+    "college-id": "georgia-tech",
+    "name": "Georgia Tech",
+    "long": "Georgia Tech"
+  },
+  {
+    "college-id": "georgian-court",
+    "name": "Georgian Court",
+    "long": "Georgian Court University"
+  },
+  {
+    "college-id": "gettysburg",
+    "name": "Gettysburg",
+    "long": "Gettysburg College"
+  },
+  {
+    "college-id": "glenville-st",
+    "name": "Glenville State",
+    "long": "Glenville State College"
+  },
+  {
+    "college-id": "goldey-beacom",
+    "name": "Goldey-Beacom",
+    "long": "Goldey-Beacom College"
+  },
+  {
+    "college-id": "gonzaga",
+    "name": "Gonzaga",
+    "long": "Gonzaga University"
+  },
+  {
+    "college-id": "gordon",
+    "name": "Gordon",
+    "long": "Gordon College"
+  },
+  {
+    "college-id": "goucher",
+    "name": "Goucher",
+    "long": "Goucher College"
+  },
+  {
+    "college-id": "grambling",
+    "name": "Grambling",
+    "long": "Grambling State University"
+  },
+  {
+    "college-id": "grand-canyon",
+    "name": "Grand Canyon",
+    "long": "Grand Canyon University"
+  },
+  {
+    "college-id": "grand-valley-st",
+    "name": "Grand Valley State",
+    "long": "Grand Valley State University"
+  },
+  {
+    "college-id": "green-bay",
+    "name": "Green Bay",
+    "long": "University of Wisconsin, Green Bay"
+  },
+  {
+    "college-id": "green-mountain",
+    "name": "Green Mountain",
+    "long": "Green Mountain College"
+  },
+  {
+    "college-id": "greensboro",
+    "name": "Greensboro",
+    "long": "Greensboro College"
+  },
+  {
+    "college-id": "greenville",
+    "name": "Greenville",
+    "long": "Greenville University"
+  },
+  {
+    "college-id": "grinnell",
+    "name": "Grinnell",
+    "long": "Grinnell College"
+  },
+  {
+    "college-id": "grove-city",
+    "name": "Grove City",
+    "long": "Grove City College"
+  },
+  {
+    "college-id": "gru-augusta",
+    "name": "Augusta University",
+    "long": "Augusta University"
+  },
+  {
+    "college-id": "guilford",
+    "name": "Guilford",
+    "long": "Guilford College"
+  },
+  {
+    "college-id": "gust-adolphus",
+    "name": "GuState Adolphus",
+    "long": "Gustavus Adolphus College"
+  },
+  {
+    "college-id": "gwynedd-mercy",
+    "name": "Gwynedd-Mercy",
+    "long": "Gwynedd-Mercy College"
+  },
+  {
+    "college-id": "hamilton",
+    "name": "Hamilton",
+    "long": "Hamilton College"
+  },
+  {
+    "college-id": "hamline",
+    "name": "Hamline",
+    "long": "Hamline University"
+  },
+  {
+    "college-id": "hampden-sydney",
+    "name": "Hampden-Sydney",
+    "long": "Hampden-Sydney College"
+  },
+  {
+    "college-id": "hampton",
+    "name": "Hampton",
+    "long": "Hampton University"
+  },
+  {
+    "college-id": "hanover",
+    "name": "Hanover",
+    "long": "Hanover College"
+  },
+  {
+    "college-id": "hardin-simmons",
+    "name": "Hardin-Simmons",
+    "long": "Hardin-Simmons University"
+  },
+  {
+    "college-id": "harding",
+    "name": "Harding",
+    "long": "Harding University"
+  },
+  {
+    "college-id": "hartford",
+    "name": "Hartford",
+    "long": "University of Hartford"
+  },
+  {
+    "college-id": "hartwick",
+    "name": "Hartwick",
+    "long": "Hartwick College"
+  },
+  {
+    "college-id": "harvard",
+    "name": "Harvard",
+    "long": "Harvard University"
+  },
+  {
+    "college-id": "haverford",
+    "name": "Haverford",
+    "long": "Haverford College"
+  },
+  {
+    "college-id": "hawaii",
+    "name": "Hawaii",
+    "long": "University of Hawaii, Manoa"
+  },
+  {
+    "college-id": "hawaii-hilo",
+    "name": "Hawaii Hilo",
+    "long": "University of Hawaii at Hilo"
+  },
+  {
+    "college-id": "hawaii-pacific",
+    "name": "Hawaii Pacific",
+    "long": "Hawaii Pacific University"
+  },
+  {
+    "college-id": "heidelberg",
+    "name": "Heidelberg",
+    "long": "Heidelberg University"
+  },
+  {
+    "college-id": "henderson-st",
+    "name": "Henderson State",
+    "long": "Henderson State University"
+  },
+  {
+    "college-id": "hendrix",
+    "name": "Hendrix",
+    "long": "Hendrix College"
+  },
+  {
+    "college-id": "high-point",
+    "name": "High Point",
+    "long": "High Point University"
+  },
+  {
+    "college-id": "hilbert",
+    "name": "Hilbert",
+    "long": "Hilbert College"
+  },
+  {
+    "college-id": "hillsdale",
+    "name": "Hillsdale",
+    "long": "Hillsdale College"
+  },
+  {
+    "college-id": "hiram",
+    "name": "Hiram",
+    "long": "Hiram College"
+  },
+  {
+    "college-id": "hobart",
+    "name": "Hobart",
+    "long": "Hobart College"
+  },
+  {
+    "college-id": "hofstra",
+    "name": "Hofstra",
+    "long": "Hofstra University"
+  },
+  {
+    "college-id": "hollins",
+    "name": "Hollins",
+    "long": "Hollins University"
+  },
+  {
+    "college-id": "holy-cross",
+    "name": "Holy Cross",
+    "long": "College of the Holy Cross"
+  },
+  {
+    "college-id": "holy-family",
+    "name": "Holy Family",
+    "long": "Holy Family University"
+  },
+  {
+    "college-id": "holy-names",
+    "name": "Holy Names",
+    "long": "Holy Names University"
+  },
+  {
+    "college-id": "hood",
+    "name": "Hood",
+    "long": "Hood College"
+  },
+  {
+    "college-id": "hope",
+    "name": "Hope",
+    "long": "Hope College"
+  },
+  {
+    "college-id": "houghton",
+    "name": "Houghton",
+    "long": "Houghton College"
+  },
+  {
+    "college-id": "houston",
+    "name": "Houston",
+    "long": "University of Houston"
+  },
+  {
+    "college-id": "houston-christian",
+    "name": "Houston Christian",
+    "long": "Houston Christian University"
+  },
+  {
+    "college-id": "howard",
+    "name": "Howard",
+    "long": "Howard University"
+  },
+  {
+    "college-id": "howard-payne",
+    "name": "Howard Payne",
+    "long": "Howard Payne University"
+  },
+  {
+    "college-id": "humboldt-st",
+    "name": "Cal Poly Humboldt",
+    "long": "California State Polytechnic University, Humboldt"
+  },
+  {
+    "college-id": "hunter",
+    "name": "Hunter",
+    "long": "Hunter College"
+  },
+  {
+    "college-id": "huntingdon",
+    "name": "Huntingdon",
+    "long": "Huntingdon College"
+  },
+  {
+    "college-id": "husson",
+    "name": "Husson",
+    "long": "Husson University"
+  },
+  {
+    "college-id": "idaho",
+    "name": "Idaho",
+    "long": "University of Idaho"
+  },
+  {
+    "college-id": "idaho-st",
+    "name": "Idaho State",
+    "long": "Idaho State University"
+  },
+  {
+    "college-id": "iit",
+    "name": "Illinois Tech",
+    "long": "Illinois Tech"
+  },
+  {
+    "college-id": "ill-chicago",
+    "name": "Ill.-Chicago",
+    "long": "University of Illinois-Chicago"
+  },
+  {
+    "college-id": "ill-springfield",
+    "name": "Ill.- Springfield",
+    "long": "University of Illinois-Springfield"
+  },
+  {
+    "college-id": "ill-wesleyan",
+    "name": "Ill. Wesleyan",
+    "long": "Illinois Wesleyan University"
+  },
+  {
+    "college-id": "illinois",
+    "name": "Illinois",
+    "long": "University of Illinois"
+  },
+  {
+    "college-id": "illinois-col",
+    "name": "Illinois Col.",
+    "long": "Illinois College"
+  },
+  {
+    "college-id": "illinois-st",
+    "name": "Illinois State",
+    "long": "Illinois State University"
+  },
+  {
+    "college-id": "immaculata",
+    "name": "Immaculata",
+    "long": "Immaculata University"
+  },
+  {
+    "college-id": "incarnate-word",
+    "name": "UIW",
+    "long": "University of the Incarnate Word"
+  },
+  {
+    "college-id": "indiana",
+    "name": "Indiana",
+    "long": "Indiana University, Bloomington"
+  },
+  {
+    "college-id": "indiana-pa",
+    "name": "Indiana (PA)",
+    "long": "Indiana University of Pennsylvania"
+  },
+  {
+    "college-id": "indiana-st",
+    "name": "Indiana State",
+    "long": "Indiana State University"
+  },
+  {
+    "college-id": "indianapolis",
+    "name": "Indianapolis",
+    "long": "University of Indianapolis"
+  },
+  {
+    "college-id": "iona",
+    "name": "Iona",
+    "long": "Iona College"
+  },
+  {
+    "college-id": "iowa",
+    "name": "Iowa",
+    "long": "University of Iowa"
+  },
+  {
+    "college-id": "iowa-st",
+    "name": "Iowa State",
+    "long": "Iowa State University"
+  },
+  {
+    "college-id": "iowa-wesleyan",
+    "name": "Iowa Wesleyan",
+    "long": "Iowa Wesleyan University"
+  },
+  {
+    "college-id": "ipfw",
+    "name": "Purdue University Fort Wayne",
+    "long": "Purdue University Fort Wayne"
+  },
+  {
+    "college-id": "ithaca",
+    "name": "Ithaca",
+    "long": "Ithaca College"
+  },
+  {
+    "college-id": "iu-indy",
+    "name": "IU Indy",
+    "long": "Indiana University Indianapolis"
+  },
+  {
+    "college-id": "jackson-st",
+    "name": "Jackson State",
+    "long": "Jackson State University"
+  },
+  {
+    "college-id": "jacksonville",
+    "name": "Jacksonville",
+    "long": "Jacksonville University"
+  },
+  {
+    "college-id": "jacksonville-st",
+    "name": "Jacksonville State",
+    "long": "Jacksonville State University"
+  },
+  {
+    "college-id": "james-madison",
+    "name": "James Madison",
+    "long": "James Madison University"
+  },
+  {
+    "college-id": "jessup",
+    "name": "Jessup University",
+    "long": "Jessup University"
+  },
+  {
+    "college-id": "john-carroll",
+    "name": "John Carroll",
+    "long": "John Carroll University"
+  },
+  {
+    "college-id": "john-jay",
+    "name": "John Jay",
+    "long": "John Jay College of Criminal Justice"
+  },
+  {
+    "college-id": "johns-hopkins",
+    "name": "Johns Hopkins",
+    "long": "Johns Hopkins University"
+  },
+  {
+    "college-id": "johnson-c-smith",
+    "name": "Johnson C. Smith",
+    "long": "Johnson C. Smith University"
+  },
+  {
+    "college-id": "johnson-st",
+    "name": "Johnson State",
+    "long": "Johnson State College"
+  },
+  {
+    "college-id": "johnson-wales-ri",
+    "name": "Johnson & Wales (RI)",
+    "long": "Johnson and Wales University"
+  },
+  {
+    "college-id": "juniata",
+    "name": "Juniata",
+    "long": "Juniata College"
+  },
+  {
+    "college-id": "jwu-denver",
+    "name": "Johnson & Wales (Denver)",
+    "long": "Johnson & Wales University (Denver)"
+  },
+  {
+    "college-id": "kalamazoo",
+    "name": "Kalamazoo",
+    "long": "Kalamazoo College"
+  },
+  {
+    "college-id": "kansas",
+    "name": "Kansas",
+    "long": "University of Kansas"
+  },
+  {
+    "college-id": "kansas-st",
+    "name": "Kansas State",
+    "long": "Kansas State University"
+  },
+  {
+    "college-id": "kean",
+    "name": "Kean",
+    "long": "Kean University"
+  },
+  {
+    "college-id": "keene-st",
+    "name": "Keene State",
+    "long": "Keene State College"
+  },
+  {
+    "college-id": "kennesaw-st",
+    "name": "Kennesaw State",
+    "long": "Kennesaw State University"
+  },
+  {
+    "college-id": "kent-st",
+    "name": "Kent State",
+    "long": "Kent State University"
+  },
+  {
+    "college-id": "kentucky",
+    "name": "Kentucky",
+    "long": "University of Kentucky"
+  },
+  {
+    "college-id": "kentucky-st",
+    "name": "Kentucky State",
+    "long": "Kentucky State University"
+  },
+  {
+    "college-id": "kenyon",
+    "name": "Kenyon",
+    "long": "Kenyon College"
+  },
+  {
+    "college-id": "keuka",
+    "name": "Keuka",
+    "long": "Keuka College"
+  },
+  {
+    "college-id": "keystone",
+    "name": "Keystone",
+    "long": "Keystone College"
+  },
+  {
+    "college-id": "king-tn",
+    "name": "King (TN)",
+    "long": "King University"
+  },
+  {
+    "college-id": "kings-pa",
+    "name": "King's (PA)",
+    "long": "King's College"
+  },
+  {
+    "college-id": "knox",
+    "name": "Knox",
+    "long": "Knox College"
+  },
+  {
+    "college-id": "kutztown",
+    "name": "Kutztown",
+    "long": "Kutztown University"
+  },
+  {
+    "college-id": "ky-wesleyan",
+    "name": "Ky. Wesleyan",
+    "long": "Kentucky Wesleyan College"
+  },
+  {
+    "college-id": "la-lafayette",
+    "name": "La.-Lafayette",
+    "long": "University of Louisiana at Lafayette"
+  },
+  {
+    "college-id": "la-monroe",
+    "name": "La.-Monroe",
+    "long": "University of Louisiana at Monroe"
+  },
+  {
+    "college-id": "la-roche",
+    "name": "La Roche",
+    "long": "La Roche College"
+  },
+  {
+    "college-id": "la-salle",
+    "name": "La Salle",
+    "long": "La Salle University"
+  },
+  {
+    "college-id": "la-sierra",
+    "name": "La Sierra",
+    "long": "La Sierra University"
+  },
+  {
+    "college-id": "la-verne",
+    "name": "La Verne",
+    "long": "University of La Verne"
+  },
+  {
+    "college-id": "lafayette",
+    "name": "Lafayette",
+    "long": "Lafayette College"
+  },
+  {
+    "college-id": "lagrange",
+    "name": "LaGrange",
+    "long": "LaGrange College"
+  },
+  {
+    "college-id": "lake-erie",
+    "name": "Lake Erie",
+    "long": "Lake Erie College"
+  },
+  {
+    "college-id": "lake-forest",
+    "name": "Lake Forest",
+    "long": "Lake Forest College"
+  },
+  {
+    "college-id": "lake-superior-st",
+    "name": "Lake Superior State",
+    "long": "Lake Superior State University"
+  },
+  {
+    "college-id": "lakeland",
+    "name": "Lakeland",
+    "long": "Lakeland College"
+  },
+  {
+    "college-id": "lamar",
+    "name": "Lamar",
+    "long": "Lamar University"
+  },
+  {
+    "college-id": "lambuth",
+    "name": "Lambuth",
+    "long": "Lambuth University"
+  },
+  {
+    "college-id": "lancaster-bible",
+    "name": "Lancaster Bible",
+    "long": "Lancaster Bible College"
+  },
+  {
+    "college-id": "lander",
+    "name": "Lander",
+    "long": "Lander University"
+  },
+  {
+    "college-id": "lane",
+    "name": "Lane",
+    "long": "Lane College"
+  },
+  {
+    "college-id": "langston",
+    "name": "Langston",
+    "long": "Langston University"
+  },
+  {
+    "college-id": "lasell",
+    "name": "Lasell",
+    "long": "Lasell University"
+  },
+  {
+    "college-id": "lawrence",
+    "name": "Lawrence",
+    "long": "Lawrence University"
+  },
+  {
+    "college-id": "le-moyne",
+    "name": "Le Moyne",
+    "long": "Le Moyne College"
+  },
+  {
+    "college-id": "lebanon-valley",
+    "name": "Lebanon Valley",
+    "long": "Lebanon Valley College"
+  },
+  {
+    "college-id": "lee",
+    "name": "Lee",
+    "long": "Lee University"
+  },
+  {
+    "college-id": "lees-mcrae",
+    "name": "Lees-McRae",
+    "long": "Lees-McRae College"
+  },
+  {
+    "college-id": "lehigh",
+    "name": "Lehigh",
+    "long": "Lehigh University"
+  },
+  {
+    "college-id": "lehman",
+    "name": "Lehman",
+    "long": "Lehman College"
+  },
+  {
+    "college-id": "lemoyne-owen",
+    "name": "LeMoyne-Owen",
+    "long": "LeMoyne-Owen College"
+  },
+  {
+    "college-id": "lenoir-rhyne",
+    "name": "Lenoir-Rhyne",
+    "long": "Lenoir-Rhyne University"
+  },
+  {
+    "college-id": "lesley",
+    "name": "Lesley",
+    "long": "Lesley University"
+  },
+  {
+    "college-id": "letourneau",
+    "name": "LeTourneau",
+    "long": "LeTourneau University"
+  },
+  {
+    "college-id": "lewis",
+    "name": "Lewis",
+    "long": "Lewis University"
+  },
+  {
+    "college-id": "lewis-clark",
+    "name": "Lewis & Clark",
+    "long": "Lewis & Clark College"
+  },
+  {
+    "college-id": "liberty",
+    "name": "Liberty",
+    "long": "Liberty University"
+  },
+  {
+    "college-id": "limestone",
+    "name": "Limestone",
+    "long": "Limestone College"
+  },
+  {
+    "college-id": "lincoln-christian",
+    "name": "Lincoln Christian",
+    "long": "Lincoln Christian College & Seminary"
+  },
+  {
+    "college-id": "lincoln-memorial",
+    "name": "Lincoln Memorial",
+    "long": "Lincoln Memorial University"
+  },
+  {
+    "college-id": "lincoln-mo",
+    "name": "Lincoln (MO)",
+    "long": "Lincoln University (Mo.)"
+  },
+  {
+    "college-id": "lincoln-pa",
+    "name": "Lincoln (PA)",
+    "long": "The Lincoln University (Pa.)"
+  },
+  {
+    "college-id": "lindenwood-mo",
+    "name": "Lindenwood",
+    "long": "Lindenwood University"
+  },
+  {
+    "college-id": "linfield",
+    "name": "Linfield",
+    "long": "Linfield College"
+  },
+  {
+    "college-id": "lipscomb",
+    "name": "Lipscomb",
+    "long": "Lipscomb University"
+  },
+  {
+    "college-id": "liu-post",
+    "name": "LIU Post",
+    "long": "LIU Post"
+  },
+  {
+    "college-id": "livingstone",
+    "name": "Livingstone",
+    "long": "Livingstone College"
+  },
+  {
+    "college-id": "lock-haven",
+    "name": "Lock Haven",
+    "long": "Lock Haven University"
+  },
+  {
+    "college-id": "long-beach-st",
+    "name": "Long Beach State",
+    "long": "Long Beach State University"
+  },
+  {
+    "college-id": "long-island",
+    "name": "Long Island",
+    "long": "Long Island University"
+  },
+  {
+    "college-id": "longwood",
+    "name": "Longwood",
+    "long": "Longwood University"
+  },
+  {
+    "college-id": "loras",
+    "name": "Loras",
+    "long": "Loras College"
+  },
+  {
+    "college-id": "louisiana-col",
+    "name": "Louisiana Col.",
+    "long": "Louisiana College"
+  },
+  {
+    "college-id": "louisiana-tech",
+    "name": "Louisiana Tech",
+    "long": "Louisiana Tech University"
+  },
+  {
+    "college-id": "louisville",
+    "name": "Louisville",
+    "long": "University of Louisville"
+  },
+  {
+    "college-id": "loyola-chicago",
+    "name": "Loyola (IL)",
+    "long": "Loyola University Chicago"
+  },
+  {
+    "college-id": "loyola-maryland",
+    "name": "Loyola Maryland",
+    "long": "Loyola University Maryland"
+  },
+  {
+    "college-id": "loyola-marymount",
+    "name": "Loyola Marymount",
+    "long": "Loyola Marymount University"
+  },
+  {
+    "college-id": "lsu",
+    "name": "LSU",
+    "long": "Louisiana State University"
+  },
+  {
+    "college-id": "lubbock-christian",
+    "name": "Lubbock Christian",
+    "long": "Lubbock Christian University"
+  },
+  {
+    "college-id": "luther",
+    "name": "Luther",
+    "long": "Luther College"
+  },
+  {
+    "college-id": "lycoming",
+    "name": "Lycoming",
+    "long": "Lycoming College"
+  },
+  {
+    "college-id": "lynchburg",
+    "name": "Lynchburg",
+    "long": "University of Lynchburg"
+  },
+  {
+    "college-id": "lyndon-st",
+    "name": "Lyndon State",
+    "long": "Lyndon State College"
+  },
+  {
+    "college-id": "lynn",
+    "name": "Lynn",
+    "long": "Lynn University"
+  },
+  {
+    "college-id": "lyon",
+    "name": "Lyon College",
+    "long": "Lyon College"
+  },
+  {
+    "college-id": "macalester",
+    "name": "Macalester",
+    "long": "Macalester College"
+  },
+  {
+    "college-id": "macmurray",
+    "name": "MacMurray",
+    "long": "MacMurray College"
+  },
+  {
+    "college-id": "maine",
+    "name": "Maine",
+    "long": "University of Maine"
+  },
+  {
+    "college-id": "maine-maritime",
+    "name": "Maine Maritime",
+    "long": "Maine Maritime Academy"
+  },
+  {
+    "college-id": "malone",
+    "name": "Malone",
+    "long": "Malone University"
+  },
+  {
+    "college-id": "manchester",
+    "name": "Manchester",
+    "long": "Manchester University"
+  },
+  {
+    "college-id": "manhattan",
+    "name": "Manhattan",
+    "long": "Manhattan College"
+  },
+  {
+    "college-id": "manhattanville",
+    "name": "Manhattanville",
+    "long": "Manhattanville College"
+  },
+  {
+    "college-id": "mansfield",
+    "name": "Mansfield",
+    "long": "Mansfield Univ. of Pennsylvania"
+  },
+  {
+    "college-id": "maranatha-baptist",
+    "name": "Maranatha Baptist",
+    "long": "Maranatha Baptist University"
+  },
+  {
+    "college-id": "marian-wi",
+    "name": "Marian (WI)",
+    "long": "Marian University"
+  },
+  {
+    "college-id": "marietta",
+    "name": "Marietta",
+    "long": "Marietta College"
+  },
+  {
+    "college-id": "marist",
+    "name": "Marist",
+    "long": "Marist College"
+  },
+  {
+    "college-id": "marquette",
+    "name": "Marquette",
+    "long": "Marquette University"
+  },
+  {
+    "college-id": "mars-hill",
+    "name": "Mars Hill",
+    "long": "Mars Hill University"
+  },
+  {
+    "college-id": "marshall",
+    "name": "Marshall",
+    "long": "Marshall University"
+  },
+  {
+    "college-id": "martin-luther",
+    "name": "Martin Luther",
+    "long": "Martin Luther College"
+  },
+  {
+    "college-id": "mary",
+    "name": "Mary",
+    "long": "University of Mary"
+  },
+  {
+    "college-id": "mary-baldwin",
+    "name": "Mary Baldwin",
+    "long": "Mary Baldwin University"
+  },
+  {
+    "college-id": "mary-hardin-baylor",
+    "name": "Mary Hardin-Baylor",
+    "long": "University of Mary Hardin-Baylor"
+  },
+  {
+    "college-id": "mary-washington",
+    "name": "Mary Washington",
+    "long": "University of Mary Washington"
+  },
+  {
+    "college-id": "maryland",
+    "name": "Maryland",
+    "long": "University of Maryland-College Park"
+  },
+  {
+    "college-id": "marymount-va",
+    "name": "Marymount (VA)",
+    "long": "Marymount University"
+  },
+  {
+    "college-id": "maryville-mo",
+    "name": "Maryville (MO)",
+    "long": "Maryville University of Saint Louis"
+  },
+  {
+    "college-id": "maryville-tn",
+    "name": "Maryville (TN)",
+    "long": "Maryville College"
+  },
+  {
+    "college-id": "marywood",
+    "name": "Marywood",
+    "long": "Marywood University"
+  },
+  {
+    "college-id": "mass-maritime",
+    "name": "Mass. Maritime",
+    "long": "Massachusetts Maritime Academy"
+  },
+  {
+    "college-id": "massachusetts",
+    "name": "Mass-Amherst",
+    "long": "University of Massachusetts"
+  },
+  {
+    "college-id": "mcdaniel",
+    "name": "McDaniel",
+    "long": "McDaniel College"
+  },
+  {
+    "college-id": "mckendree",
+    "name": "McKendree",
+    "long": "McKendree University"
+  },
+  {
+    "college-id": "mcla",
+    "name": "Mass-Liberal-Arts",
+    "long": "Massachusetts College of Liberal Arts"
+  },
+  {
+    "college-id": "mcmurry",
+    "name": "McMurry",
+    "long": "McMurry University"
+  },
+  {
+    "college-id": "mcneese-st",
+    "name": "McNeese State",
+    "long": "McNeese State University"
+  },
+  {
+    "college-id": "me-farmington",
+    "name": "Me.-Farmington",
+    "long": "University of Maine, Farmington"
+  },
+  {
+    "college-id": "me-presque-isle",
+    "name": "Me.-Presque Isle",
+    "long": "University of Maine at Presque Isle"
+  },
+  {
+    "college-id": "medaille",
+    "name": "Medaille",
+    "long": "Medaille College"
+  },
+  {
+    "college-id": "medgar-evers",
+    "name": "Medgar Evers",
+    "long": "Medgar Evers College"
+  },
+  {
+    "college-id": "memphis",
+    "name": "Memphis",
+    "long": "University of Memphis"
+  },
+  {
+    "college-id": "menlo",
+    "name": "Menlo",
+    "long": "Menlo College"
+  },
+  {
+    "college-id": "merced",
+    "name": "UC Merced",
+    "long": "University of California, Merced"
+  },
+  {
+    "college-id": "mercer",
+    "name": "Mercer",
+    "long": "Mercer University"
+  },
+  {
+    "college-id": "merchant-marine",
+    "name": "Merchant Marine",
+    "long": "U.S. Merchant Marine Academy"
+  },
+  {
+    "college-id": "mercy",
+    "name": "Mercy",
+    "long": "Mercy College"
+  },
+  {
+    "college-id": "mercyhurst",
+    "name": "Mercyhurst",
+    "long": "Mercyhurst College"
+  },
+  {
+    "college-id": "meredith",
+    "name": "Meredith",
+    "long": "Meredith College"
+  },
+  {
+    "college-id": "merrimack",
+    "name": "Merrimack",
+    "long": "Merrimack College"
+  },
+  {
+    "college-id": "messiah",
+    "name": "Messiah",
+    "long": "Messiah College"
+  },
+  {
+    "college-id": "methodist",
+    "name": "Methodist",
+    "long": "Methodist University"
+  },
+  {
+    "college-id": "metro-st",
+    "name": "Metro State",
+    "long": "Metropolitan State University of Denver"
+  },
+  {
+    "college-id": "miami-fl",
+    "name": "Miami (Fla.)",
+    "long": "University of Miami"
+  },
+  {
+    "college-id": "miami-oh",
+    "name": "Miami (OH)",
+    "long": "Miami University (Ohio)"
+  },
+  {
+    "college-id": "michigan",
+    "name": "Michigan",
+    "long": "University of Michigan"
+  },
+  {
+    "college-id": "michigan-st",
+    "name": "Michigan State",
+    "long": "Michigan State University"
+  },
+  {
+    "college-id": "michigan-tech",
+    "name": "Michigan Tech",
+    "long": "Michigan Technological University"
+  },
+  {
+    "college-id": "middle-georgia-st",
+    "name": "Middle Georgia State",
+    "long": "Middle Georgia State"
+  },
+  {
+    "college-id": "middle-tenn",
+    "name": "Middle Tenn.",
+    "long": "Middle Tennessee State University"
+  },
+  {
+    "college-id": "middlebury",
+    "name": "Middlebury",
+    "long": "Middlebury College"
+  },
+  {
+    "college-id": "midwestern-st",
+    "name": "MSU Texas",
+    "long": "Midwestern State University"
+  },
+  {
+    "college-id": "miles",
+    "name": "Miles",
+    "long": "Miles College"
+  },
+  {
+    "college-id": "millersville",
+    "name": "Millersville",
+    "long": "Millersville University"
+  },
+  {
+    "college-id": "millikin",
+    "name": "Millikin",
+    "long": "Millikin University"
+  },
+  {
+    "college-id": "mills",
+    "name": "Mills",
+    "long": "Mills College"
+  },
+  {
+    "college-id": "millsaps",
+    "name": "Millsaps",
+    "long": "Millsaps College"
+  },
+  {
+    "college-id": "milwaukee",
+    "name": "Milwaukee",
+    "long": "University of Wisconsin, Milwaukee"
+  },
+  {
+    "college-id": "minn-crookston",
+    "name": "Minn.-Crookston",
+    "long": "University of Minnesota-Crookston"
+  },
+  {
+    "college-id": "minn-duluth",
+    "name": "Minn. Duluth",
+    "long": "University of Minnesota-Duluth"
+  },
+  {
+    "college-id": "minn-morris",
+    "name": "Minn.-Morris",
+    "long": "University of Minnesota-Morris"
+  },
+  {
+    "college-id": "minn-st-mankato",
+    "name": "Minn. State Mankato",
+    "long": "Minnesota State University-Mankato"
+  },
+  {
+    "college-id": "minn-st-moorhead",
+    "name": "Minn. State Moorhead",
+    "long": "Minnesota State Univ.-Moorhead"
+  },
+  {
+    "college-id": "minnesota",
+    "name": "Minnesota",
+    "long": "University of Minnesota"
+  },
+  {
+    "college-id": "minot-st",
+    "name": "Minot State",
+    "long": "Minot State University"
+  },
+  {
+    "college-id": "misericordia",
+    "name": "Misericordia",
+    "long": "Misericordia University"
+  },
+  {
+    "college-id": "mississippi-col",
+    "name": "Mississippi Col.",
+    "long": "Mississippi College"
+  },
+  {
+    "college-id": "mississippi-st",
+    "name": "Mississippi State",
+    "long": "Mississippi State University"
+  },
+  {
+    "college-id": "mississippi-val",
+    "name": "Mississippi Val.",
+    "long": "Mississippi Valley State University"
+  },
+  {
+    "college-id": "missouri",
+    "name": "Missouri",
+    "long": "University of Missouri"
+  },
+  {
+    "college-id": "missouri-snt",
+    "name": "Missouri S&T",
+    "long": "Missouri S&T"
+  },
+  {
+    "college-id": "missouri-st",
+    "name": "Missouri State",
+    "long": "Missouri State University"
+  },
+  {
+    "college-id": "mit",
+    "name": "MIT",
+    "long": "MIT"
+  },
+  {
+    "college-id": "mitchell",
+    "name": "Mitchell",
+    "long": "Mitchell College"
+  },
+  {
+    "college-id": "mo-southern-st",
+    "name": "Mo. Southern State",
+    "long": "Missouri Southern State University"
+  },
+  {
+    "college-id": "mo-st-louis",
+    "name": "Mo.-State Louis",
+    "long": "University of Missouri-State Louis"
+  },
+  {
+    "college-id": "mo-western-st",
+    "name": "Mo. Western State",
+    "long": "Missouri Western State University"
+  },
+  {
+    "college-id": "molloy",
+    "name": "Molloy",
+    "long": "Molloy University"
+  },
+  {
+    "college-id": "monmouth",
+    "name": "Monmouth",
+    "long": "Monmouth University"
+  },
+  {
+    "college-id": "monmouth-il",
+    "name": "Monmouth (IL)",
+    "long": "Monmouth College"
+  },
+  {
+    "college-id": "mont-st-billings",
+    "name": "Mont. State Billings",
+    "long": "Montana State University Billings"
+  },
+  {
+    "college-id": "montana",
+    "name": "Montana",
+    "long": "University of Montana"
+  },
+  {
+    "college-id": "montana-st",
+    "name": "Montana State",
+    "long": "Montana State University-Bozeman"
+  },
+  {
+    "college-id": "montclair-st",
+    "name": "Montclair State",
+    "long": "Montclair State University"
+  },
+  {
+    "college-id": "montevallo",
+    "name": "Montevallo",
+    "long": "University of Montevallo"
+  },
+  {
+    "college-id": "moravian",
+    "name": "Moravian",
+    "long": "Moravian College"
+  },
+  {
+    "college-id": "morehead-st",
+    "name": "Morehead State",
+    "long": "Morehead State University"
+  },
+  {
+    "college-id": "morehouse",
+    "name": "Morehouse",
+    "long": "Morehouse College"
+  },
+  {
+    "college-id": "morgan-st",
+    "name": "Morgan State",
+    "long": "Morgan State University"
+  },
+  {
+    "college-id": "morningside",
+    "name": "Morningside",
+    "long": "Morningside College"
+  },
+  {
+    "college-id": "morris-brown",
+    "name": "Morris Brown",
+    "long": "Morris Brown College"
+  },
+  {
+    "college-id": "mount-holyoke",
+    "name": "Mount Holyoke",
+    "long": "Mount Holyoke College"
+  },
+  {
+    "college-id": "mount-ida",
+    "name": "Mount Ida",
+    "long": "Mount Ida College"
+  },
+  {
+    "college-id": "mount-olive",
+    "name": "Mount Olive",
+    "long": "Mount Olive College"
+  },
+  {
+    "college-id": "mount-union",
+    "name": "Mount Union",
+    "long": "Mount Union College"
+  },
+  {
+    "college-id": "msoe",
+    "name": "Milwaukee Engr.",
+    "long": "Milwaukee School of Engineering"
+  },
+  {
+    "college-id": "mt-aloysius",
+    "name": "Mt. Aloysius",
+    "long": "Mount Aloysius College"
+  },
+  {
+    "college-id": "mt-mary",
+    "name": "Mt. Mary",
+    "long": "Mount Mary College"
+  },
+  {
+    "college-id": "mt-st-joseph",
+    "name": "Mount State Joseph",
+    "long": "Mount State Joseph University"
+  },
+  {
+    "college-id": "mt-st-mary-ny",
+    "name": "Mt. State Mary (NY)",
+    "long": "Mount Saint Mary College"
+  },
+  {
+    "college-id": "mt-st-marys",
+    "name": "Mt. State Mary's",
+    "long": "Mount State Mary's University"
+  },
+  {
+    "college-id": "mt-st-vincent",
+    "name": "Mt. State Vincent",
+    "long": "University of Mount Saint Vincent"
+  },
+  {
+    "college-id": "muhlenberg",
+    "name": "Muhlenberg",
+    "long": "Muhlenberg College"
+  },
+  {
+    "college-id": "murray-st",
+    "name": "Murray State",
+    "long": "Murray State University"
+  },
+  {
+    "college-id": "muskingum",
+    "name": "Muskingum",
+    "long": "Muskingum University"
+  },
+  {
+    "college-id": "navy",
+    "name": "Navy",
+    "long": "U.S. Naval Academy"
+  },
+  {
+    "college-id": "nazareth",
+    "name": "Nazareth",
+    "long": "Nazareth College"
+  },
+  {
+    "college-id": "nc-at",
+    "name": "North Carolina A&T",
+    "long": "North Carolina A&T State University"
+  },
+  {
+    "college-id": "nc-central",
+    "name": "North Carolina Central",
+    "long": "North Carolina Central University"
+  },
+  {
+    "college-id": "nc-wesleyan",
+    "name": "North Carolina Wesleyan",
+    "long": "North Carolina Wesleyan College"
+  },
+  {
+    "college-id": "neb-kearney",
+    "name": "Neb.-Kearney",
+    "long": "University of Nebraska-Kearney"
+  },
+  {
+    "college-id": "neb-omaha",
+    "name": "Omaha",
+    "long": "University of Nebraska-Omaha"
+  },
+  {
+    "college-id": "neb-wesleyan",
+    "name": "Neb. Wesleyan",
+    "long": "Nebraska Wesleyan University"
+  },
+  {
+    "college-id": "nebraska",
+    "name": "Nebraska",
+    "long": "University of Nebraska-Lincoln"
+  },
+  {
+    "college-id": "neumann",
+    "name": "Neumann",
+    "long": "Neumann University"
+  },
+  {
+    "college-id": "nevada",
+    "name": "Nevada",
+    "long": "University of Nevada"
+  },
+  {
+    "college-id": "new-england-col",
+    "name": "New England Col.",
+    "long": "New England College"
+  },
+  {
+    "college-id": "new-hampshire",
+    "name": "New Hampshire",
+    "long": "University of New Hampshire"
+  },
+  {
+    "college-id": "new-haven",
+    "name": "New Haven",
+    "long": "University of New Haven"
+  },
+  {
+    "college-id": "new-jersey-city",
+    "name": "New Jersey City",
+    "long": "New Jersey City University"
+  },
+  {
+    "college-id": "new-mexico",
+    "name": "New Mexico",
+    "long": "University of New Mexico"
+  },
+  {
+    "college-id": "new-mexico-st",
+    "name": "New Mexico State",
+    "long": "New Mexico State University"
+  },
+  {
+    "college-id": "new-orleans",
+    "name": "New Orleans",
+    "long": "University of New Orleans"
+  },
+  {
+    "college-id": "new-rochelle",
+    "name": "New Rochelle",
+    "long": "College of New Rochelle"
+  },
+  {
+    "college-id": "new-york-u",
+    "name": "New York U.",
+    "long": "New York University"
+  },
+  {
+    "college-id": "newberry",
+    "name": "Newberry",
+    "long": "Newberry College"
+  },
+  {
+    "college-id": "newbury",
+    "name": "Newbury",
+    "long": "Newbury College"
+  },
+  {
+    "college-id": "newman",
+    "name": "Newman",
+    "long": "Newman University"
+  },
+  {
+    "college-id": "niagara",
+    "name": "Niagara",
+    "long": "Niagara University"
+  },
+  {
+    "college-id": "nicholls-st",
+    "name": "Nicholls State",
+    "long": "Nicholls State University"
+  },
+  {
+    "college-id": "nichols",
+    "name": "Nichols",
+    "long": "Nichols College"
+  },
+  {
+    "college-id": "njit",
+    "name": "New-Jersey-Tech",
+    "long": "New Jersey Institute of Technology"
+  },
+  {
+    "college-id": "nm-highlands",
+    "name": "New-Mexico-Highlands",
+    "long": "New Mexico Highlands University"
+  },
+  {
+    "college-id": "norfolk-st",
+    "name": "Norfolk State",
+    "long": "Norfolk State University"
+  },
+  {
+    "college-id": "north-ala",
+    "name": "North Ala.",
+    "long": "University of North Alabama"
+  },
+  {
+    "college-id": "north-carolina",
+    "name": "North Carolina",
+    "long": "University of North Carolina"
+  },
+  {
+    "college-id": "north-carolina-st",
+    "name": "North Carolina State",
+    "long": "North Carolina State University"
+  },
+  {
+    "college-id": "north-central-il",
+    "name": "North Central (IL)",
+    "long": "North Central College"
+  },
+  {
+    "college-id": "north-central-mn",
+    "name": "North Central (MN)",
+    "long": "North Central University"
+  },
+  {
+    "college-id": "north-dakota",
+    "name": "North Dakota",
+    "long": "University of North Dakota"
+  },
+  {
+    "college-id": "north-dakota-st",
+    "name": "North Dakota State",
+    "long": "North Dakota State University"
+  },
+  {
+    "college-id": "north-florida",
+    "name": "North Florida",
+    "long": "University of North Florida"
+  },
+  {
+    "college-id": "north-georgia",
+    "name": "North Ga.",
+    "long": "University of North Georgia"
+  },
+  {
+    "college-id": "north-greenville",
+    "name": "North Greenville",
+    "long": "North Greenville University"
+  },
+  {
+    "college-id": "north-park",
+    "name": "North Park",
+    "long": "North Park University"
+  },
+  {
+    "college-id": "north-texas",
+    "name": "North Texas",
+    "long": "University of North Texas"
+  },
+  {
+    "college-id": "northeastern",
+    "name": "Northeastern",
+    "long": "Northeastern University"
+  },
+  {
+    "college-id": "northeastern-ill",
+    "name": "Northeastern Ill.",
+    "long": "Northeastern Illinois"
+  },
+  {
+    "college-id": "northeastern-st",
+    "name": "Northeastern State",
+    "long": "Northeastern State University"
+  },
+  {
+    "college-id": "northern-ariz",
+    "name": "Northern Ariz.",
+    "long": "Northern Arizona University"
+  },
+  {
+    "college-id": "northern-colo",
+    "name": "Northern Colo.",
+    "long": "University of Northern Colorado"
+  },
+  {
+    "college-id": "northern-ill",
+    "name": "Northern Ill.",
+    "long": "Northern Illinois University"
+  },
+  {
+    "college-id": "northern-ky",
+    "name": "Northern Ky.",
+    "long": "Northern Kentucky University"
+  },
+  {
+    "college-id": "northern-mich",
+    "name": "Northern Mich.",
+    "long": "Northern Michigan University"
+  },
+  {
+    "college-id": "northern-st",
+    "name": "Northern State",
+    "long": "Northern State University"
+  },
+  {
+    "college-id": "northland",
+    "name": "Northland",
+    "long": "Northland College"
+  },
+  {
+    "college-id": "northwest-mo-st",
+    "name": "Northwest Mo. State",
+    "long": "Northwest Missouri State University"
+  },
+  {
+    "college-id": "northwest-nazarene",
+    "name": "Northwest Nazarene",
+    "long": "Northwest Nazarene University"
+  },
+  {
+    "college-id": "northwestern",
+    "name": "Northwestern",
+    "long": "Northwestern University"
+  },
+  {
+    "college-id": "northwestern-okla",
+    "name": "Northwestern Oklahoma",
+    "long": "Northwestern Oklahoma State Univ."
+  },
+  {
+    "college-id": "northwestern-st",
+    "name": "Northwestern State",
+    "long": "Northwestern State University"
+  },
+  {
+    "college-id": "northwestern-st-paul",
+    "name": "Northwestern-State Paul",
+    "long": "University of Northwestern-State Paul"
+  },
+  {
+    "college-id": "northwood-mi",
+    "name": "Northwood (MI)",
+    "long": "Northwood University (Michigan)"
+  },
+  {
+    "college-id": "norwich",
+    "name": "Norwich",
+    "long": "Norwich University"
+  },
+  {
+    "college-id": "notre-dame",
+    "name": "Notre Dame",
+    "long": "University of Notre Dame"
+  },
+  {
+    "college-id": "notre-dame-de-namur",
+    "name": "Notre Dame de Namur",
+    "long": "Notre Dame de Namur"
+  },
+  {
+    "college-id": "notre-dame-md",
+    "name": "Notre Dame (MD)",
+    "long": "Notre Dame of Maryland University"
+  },
+  {
+    "college-id": "notre-dame-oh",
+    "name": "Notre Dame (OH)",
+    "long": "Notre Dame College (Ohio)"
+  },
+  {
+    "college-id": "nova-southeastern",
+    "name": "Nova Southeastern",
+    "long": "Nova Southeastern University"
+  },
+  {
+    "college-id": "nyack",
+    "name": "Nyack",
+    "long": "Nyack College"
+  },
+  {
+    "college-id": "nyit",
+    "name": "New-York-Inst",
+    "long": "New York Institute of Technology"
+  },
+  {
+    "college-id": "oakland",
+    "name": "Oakland",
+    "long": "Oakland University"
+  },
+  {
+    "college-id": "oakland-city",
+    "name": "Oakland City",
+    "long": "Oakland City University"
+  },
+  {
+    "college-id": "oberlin",
+    "name": "Oberlin",
+    "long": "Oberlin College"
+  },
+  {
+    "college-id": "occidental",
+    "name": "Occidental",
+    "long": "Occidental College"
+  },
+  {
+    "college-id": "oglethorpe",
+    "name": "Oglethorpe",
+    "long": "Oglethorpe University"
+  },
+  {
+    "college-id": "ohio",
+    "name": "Ohio",
+    "long": "Ohio University"
+  },
+  {
+    "college-id": "ohio-dominican",
+    "name": "Ohio Dominican",
+    "long": "Ohio Dominican University"
+  },
+  {
+    "college-id": "ohio-northern",
+    "name": "Ohio Northern",
+    "long": "Ohio Northern University"
+  },
+  {
+    "college-id": "ohio-st",
+    "name": "Ohio State",
+    "long": "The Ohio State University"
+  },
+  {
+    "college-id": "ohio-valley",
+    "name": "Ohio Valley",
+    "long": "Ohio Valley University"
+  },
+  {
+    "college-id": "ohio-wesleyan",
+    "name": "Ohio Wesleyan",
+    "long": "Ohio Wesleyan University"
+  },
+  {
+    "college-id": "okla-baptist",
+    "name": "Oklahoma Baptist University"
+  },
+  {
+    "college-id": "okla-christian",
+    "name": "Oklahoma Christian",
+    "long": "Oklahoma Christian University"
+  },
+  {
+    "college-id": "okla-panhandle",
+    "name": "Oklahoma Panhandle",
+    "long": "Oklahoma Panhandle State Univ."
+  },
+  {
+    "college-id": "oklahoma",
+    "name": "Oklahoma",
+    "long": "University of Oklahoma"
+  },
+  {
+    "college-id": "oklahoma-st",
+    "name": "Oklahoma State",
+    "long": "Oklahoma State University"
+  },
+  {
+    "college-id": "old-dominion",
+    "name": "Old Dominion",
+    "long": "Old Dominion University"
+  },
+  {
+    "college-id": "old-westbury",
+    "name": "Suny-Old-Westbury",
+    "long": "SUNY, Old Westbury"
+  },
+  {
+    "college-id": "ole-miss",
+    "name": "Mississippi",
+    "long": "University of Mississippi"
+  },
+  {
+    "college-id": "olivet",
+    "name": "Olivet",
+    "long": "Olivet College"
+  },
+  {
+    "college-id": "oneonta-st",
+    "name": "SUNY Oneonta",
+    "long": "SUNY Oneonta"
+  },
+  {
+    "college-id": "oral-roberts",
+    "name": "Oral Roberts",
+    "long": "Oral Roberts University"
+  },
+  {
+    "college-id": "oregon",
+    "name": "Oregon",
+    "long": "University of Oregon"
+  },
+  {
+    "college-id": "oregon-st",
+    "name": "Oregon State",
+    "long": "Oregon State University"
+  },
+  {
+    "college-id": "oswego-st",
+    "name": "Suny-Oswego",
+    "long": "SUNY, Oswego"
+  },
+  {
+    "college-id": "otterbein",
+    "name": "Otterbein",
+    "long": "Otterbein University"
+  },
+  {
+    "college-id": "ouachita-baptist",
+    "name": "Ouachita Baptist",
+    "long": "Ouachita Baptist University"
+  },
+  {
+    "college-id": "ozarks-ar",
+    "name": "Ozarks (AR)",
+    "long": "University of the Ozarks"
+  },
+  {
+    "college-id": "pace",
+    "name": "Pace",
+    "long": "Pace University"
+  },
+  {
+    "college-id": "pacific",
+    "name": "Pacific",
+    "long": "University of the Pacific"
+  },
+  {
+    "college-id": "pacific-lutheran",
+    "name": "Pacific Lutheran",
+    "long": "Pacific Lutheran University"
+  },
+  {
+    "college-id": "pacific-or",
+    "name": "Pacific (OR)",
+    "long": "Pacific University"
+  },
+  {
+    "college-id": "paine",
+    "name": "Paine",
+    "long": "Paine College"
+  },
+  {
+    "college-id": "palm-beach-atl",
+    "name": "Palm Beach Atl.",
+    "long": "Palm Beach Atlantic University"
+  },
+  {
+    "college-id": "penn",
+    "name": "Penn",
+    "long": "University of Pennsylvania"
+  },
+  {
+    "college-id": "penn-st",
+    "name": "Penn State",
+    "long": "Penn State University"
+  },
+  {
+    "college-id": "penn-st-abington",
+    "name": "Penn State-Abington",
+    "long": "Penn State Abington"
+  },
+  {
+    "college-id": "penn-st-altoona",
+    "name": "Penn State-Altoona",
+    "long": "Penn State Altoona"
+  },
+  {
+    "college-id": "penn-st-behrend",
+    "name": "Penn State-Behrend",
+    "long": "Penn State Behrend"
+  },
+  {
+    "college-id": "penn-st-berks",
+    "name": "Penn State-Berks",
+    "long": "Penn State Berks College"
+  },
+  {
+    "college-id": "penn-st-brandywine",
+    "name": "Penn State Brandywine",
+    "long": "Pennsylvania State University Brandywine"
+  },
+  {
+    "college-id": "penn-st-harrisburg",
+    "name": "Penn State-Harrisburg",
+    "long": "Penn State Harrisburg"
+  },
+  {
+    "college-id": "penn-tech",
+    "name": "Penn College",
+    "long": "Penn College of Technology"
+  },
+  {
+    "college-id": "pepperdine",
+    "name": "Pepperdine",
+    "long": "Pepperdine University"
+  },
+  {
+    "college-id": "pfeiffer",
+    "name": "Pfeiffer",
+    "long": "Pfeiffer University"
+  },
+  {
+    "college-id": "philadelphia-u",
+    "name": "Jefferson University",
+    "long": "Thomas Jefferson University"
+  },
+  {
+    "college-id": "piedmont",
+    "name": "Piedmont",
+    "long": "Piedmont College"
+  },
+  {
+    "college-id": "pine-manor",
+    "name": "Pine Manor",
+    "long": "Pine Manor College"
+  },
+  {
+    "college-id": "pitt-bradford",
+    "name": "Pitt.-Bradford",
+    "long": "University of Pittsburgh, Bradford"
+  },
+  {
+    "college-id": "pitt-greensburg",
+    "name": "Pitt.-Greensburg",
+    "long": "University of Pittsburgh-Greensburg"
+  },
+  {
+    "college-id": "pitt-johnstown",
+    "name": "Pitt.-Johnstown",
+    "long": "University of Pittsburgh-Johnstown"
+  },
+  {
+    "college-id": "pittsburg-st",
+    "name": "Pittsburg State",
+    "long": "Pittsburg State University"
+  },
+  {
+    "college-id": "pittsburgh",
+    "name": "Pittsburgh",
+    "long": "University of Pittsburgh"
+  },
+  {
+    "college-id": "plattsburgh-st",
+    "name": "Plattsburgh State",
+    "long": "Plattsburgh State University"
+  },
+  {
+    "college-id": "plymouth-st",
+    "name": "Plymouth State",
+    "long": "Plymouth State University"
+  },
+  {
+    "college-id": "point-loma",
+    "name": "Point Loma",
+    "long": "Point Loma"
+  },
+  {
+    "college-id": "polytechnic-ny",
+    "name": "Polytechnic (NY)",
+    "long": "Polytechnic Institute of New York University"
+  },
+  {
+    "college-id": "pomona-pitzer",
+    "name": "Pomona-Pitzer",
+    "long": "Pomona-Pitzer Colleges"
+  },
+  {
+    "college-id": "portland",
+    "name": "Portland",
+    "long": "University of Portland"
+  },
+  {
+    "college-id": "portland-st",
+    "name": "Portland State",
+    "long": "Portland State University"
+  },
+  {
+    "college-id": "post",
+    "name": "Post",
+    "long": "Post University"
+  },
+  {
+    "college-id": "pr-bayamon",
+    "name": "P.R.-Bayamon",
+    "long": "University of Puerto Rico-Bayamon"
+  },
+  {
+    "college-id": "pr-cayey",
+    "name": "P.R.-Cayey",
+    "long": "University of Puerto Rico, Cayey"
+  },
+  {
+    "college-id": "pr-humacao",
+    "name": "P.R.-Humacao",
+    "long": "University of Puerto Rico, Humacao"
+  },
+  {
+    "college-id": "pr-mayaguez",
+    "name": "P.R.-Mayaguez",
+    "long": "University of Puerto Rico-Mayaguez Campus"
+  },
+  {
+    "college-id": "pr-rio-piedras",
+    "name": "P.R.-Rio Piedras",
+    "long": "University of Puerto Rico-Rio Piedras"
+  },
+  {
+    "college-id": "prairie-view",
+    "name": "Prairie View",
+    "long": "Prairie View A&M University"
+  },
+  {
+    "college-id": "pratt-institute",
+    "name": "Pratt Institute",
+    "long": "Pratt Institute"
+  },
+  {
+    "college-id": "presbyterian",
+    "name": "Presbyterian",
+    "long": "Presbyterian College"
+  },
+  {
+    "college-id": "presentation",
+    "name": "Presentation",
+    "long": "Presentation College"
+  },
+  {
+    "college-id": "princeton",
+    "name": "Princeton",
+    "long": "Princeton University"
+  },
+  {
+    "college-id": "principia",
+    "name": "Principia",
+    "long": "Principia College"
+  },
+  {
+    "college-id": "providence",
+    "name": "Providence",
+    "long": "Providence College"
+  },
+  {
+    "college-id": "puget-sound",
+    "name": "Puget Sound",
+    "long": "University of Puget Sound"
+  },
+  {
+    "college-id": "purchase-st",
+    "name": "Purchase",
+    "long": "Purchase College-SUNY"
+  },
+  {
+    "college-id": "purdue",
+    "name": "Purdue",
+    "long": "Purdue University"
+  },
+  {
+    "college-id": "purdue-northwest",
+    "name": "Purdue Northwest",
+    "long": "Purdue University Northwest"
+  },
+  {
+    "college-id": "queens-nc",
+    "name": "Queens (NC)",
+    "long": "Queens University of Charlotte"
+  },
+  {
+    "college-id": "queens-ny",
+    "name": "Queens (NY)",
+    "long": "Queens College"
+  },
+  {
+    "college-id": "quincy",
+    "name": "Quincy",
+    "long": "Quincy University"
+  },
+  {
+    "college-id": "quinnipiac",
+    "name": "Quinnipiac",
+    "long": "Quinnipiac University"
+  },
+  {
+    "college-id": "radford",
+    "name": "Radford",
+    "long": "Radford University"
+  },
+  {
+    "college-id": "ramapo",
+    "name": "Ramapo",
+    "long": "Ramapo College"
+  },
+  {
+    "college-id": "randolph",
+    "name": "Randolph",
+    "long": "Randolph College"
+  },
+  {
+    "college-id": "randolph-macon",
+    "name": "Randolph-Macon",
+    "long": "Randolph-Macon College"
+  },
+  {
+    "college-id": "redlands",
+    "name": "Redlands",
+    "long": "University of Redlands"
+  },
+  {
+    "college-id": "regis-co",
+    "name": "Regis (CO)",
+    "long": "Regis University"
+  },
+  {
+    "college-id": "regis-ma",
+    "name": "Regis College",
+    "long": "Regis College"
+  },
+  {
+    "college-id": "reneau-university",
+    "name": "Reneau University",
+    "long": "Reneau University"
+  },
+  {
+    "college-id": "rensselaer",
+    "name": "Rensselaer",
+    "long": "Rensselaer Polytechnic Institute"
+  },
+  {
+    "college-id": "rhode-island",
+    "name": "Rhode Island",
+    "long": "University of Rhode Island"
+  },
+  {
+    "college-id": "rhode-island-col",
+    "name": "Rhode Island Col.",
+    "long": "Rhode Island College"
+  },
+  {
+    "college-id": "rhodes",
+    "name": "Rhodes",
+    "long": "Rhodes College"
+  },
+  {
+    "college-id": "rice",
+    "name": "Rice",
+    "long": "Rice University"
+  },
+  {
+    "college-id": "richard-stockton",
+    "name": "Stockton",
+    "long": "Stockton University"
+  },
+  {
+    "college-id": "richmond",
+    "name": "Richmond",
+    "long": "University of Richmond"
+  },
+  {
+    "college-id": "rider",
+    "name": "Rider",
+    "long": "Rider University"
+  },
+  {
+    "college-id": "ripon",
+    "name": "Ripon",
+    "long": "Ripon College"
+  },
+  {
+    "college-id": "rivier",
+    "name": "Rivier",
+    "long": "Rivier University"
+  },
+  {
+    "college-id": "roanoke",
+    "name": "Roanoke",
+    "long": "Roanoke College"
+  },
+  {
+    "college-id": "robert-morris",
+    "name": "Robert Morris",
+    "long": "Robert Morris University"
+  },
+  {
+    "college-id": "roberts-wesleyan",
+    "name": "Roberts Wesleyan",
+    "long": "Roberts Wesleyan University"
+  },
+  {
+    "college-id": "rochester-inst",
+    "name": "Rochester InState",
+    "long": "Rochester Institute of Technology"
+  },
+  {
+    "college-id": "rochester-ny",
+    "name": "Rochester (NY)",
+    "long": "University of Rochester"
+  },
+  {
+    "college-id": "rockford",
+    "name": "Rockford",
+    "long": "Rockford University"
+  },
+  {
+    "college-id": "rockhurst",
+    "name": "Rockhurst",
+    "long": "Rockhurst University"
+  },
+  {
+    "college-id": "roger-williams",
+    "name": "Roger Williams",
+    "long": "Roger Williams University"
+  },
+  {
+    "college-id": "rogers-st",
+    "name": "Rogers State",
+    "long": "Rogers State University"
+  },
+  {
+    "college-id": "rollins",
+    "name": "Rollins",
+    "long": "Rollins College"
+  },
+  {
+    "college-id": "roosevelt-university",
+    "name": "Roosevelt University",
+    "long": "Roosevelt University"
+  },
+  {
+    "college-id": "rose-hulman",
+    "name": "Rose-Hulman",
+    "long": "Rose-Hulman Institute of Technology"
+  },
+  {
+    "college-id": "rosemont",
+    "name": "Rosemont",
+    "long": "Rosemont College"
+  },
+  {
+    "college-id": "rowan",
+    "name": "Rowan",
+    "long": "Rowan University"
+  },
+  {
+    "college-id": "rust",
+    "name": "Rust",
+    "long": "Rust College"
+  },
+  {
+    "college-id": "rutgers",
+    "name": "Rutgers",
+    "long": "Rutgers University"
+  },
+  {
+    "college-id": "rutgers-camden",
+    "name": "Rutgers-Camden",
+    "long": "Rutgers University, Camden"
+  },
+  {
+    "college-id": "rutgers-newark",
+    "name": "Rutgers-Newark",
+    "long": "Rutgers University, Newark"
+  },
+  {
+    "college-id": "sacramento-st",
+    "name": "Sacramento State",
+    "long": "Sacramento State University"
+  },
+  {
+    "college-id": "sacred-heart",
+    "name": "Sacred Heart",
+    "long": "Sacred Heart University"
+  },
+  {
+    "college-id": "sage-colleges",
+    "name": "Russell Sage College",
+    "long": "The Sage Colleges"
+  },
+  {
+    "college-id": "saginaw-valley",
+    "name": "Saginaw Valley",
+    "long": "Saginaw Valley State University"
+  },
+  {
+    "college-id": "saint-johns-mn",
+    "name": "State John's (MN)",
+    "long": "State John's University (Minn.)"
+  },
+  {
+    "college-id": "saint-josephs",
+    "name": "Saint Joseph's",
+    "long": "Saint Joseph's University"
+  },
+  {
+    "college-id": "saint-leo",
+    "name": "State Leo",
+    "long": "Saint Leo University"
+  },
+  {
+    "college-id": "saint-louis",
+    "name": "State Louis",
+    "long": "Saint Louis University"
+  },
+  {
+    "college-id": "saint-martins",
+    "name": "Saint-Martins",
+    "long": "Saint Martin's University"
+  },
+  {
+    "college-id": "saint-michaels",
+    "name": "State Michael's",
+    "long": "Saint Michael's College"
+  },
+  {
+    "college-id": "saint-rose",
+    "name": "Saint Rose"
+  },
+  {
+    "college-id": "saint-vincent",
+    "name": "State Vincent",
+    "long": "Saint Vincent College"
+  },
+  {
+    "college-id": "salem",
+    "name": "Salem",
+    "long": "Salem College"
+  },
+  {
+    "college-id": "salem-intl",
+    "name": "Salem University",
+    "long": "Salem University"
+  },
+  {
+    "college-id": "salem-st",
+    "name": "Salem State",
+    "long": "Salem State University"
+  },
+  {
+    "college-id": "salisbury",
+    "name": "Salisbury",
+    "long": "Salisbury University"
+  },
+  {
+    "college-id": "salve-regina",
+    "name": "Salve Regina",
+    "long": "Salve Regina University"
+  },
+  {
+    "college-id": "sam-houston-st",
+    "name": "Sam Houston State",
+    "long": "Sam Houston State University"
+  },
+  {
+    "college-id": "samford",
+    "name": "Samford",
+    "long": "Samford University"
+  },
+  {
+    "college-id": "san-diego",
+    "name": "San Diego",
+    "long": "University of San Diego"
+  },
+  {
+    "college-id": "san-diego-st",
+    "name": "San Diego State",
+    "long": "San Diego State University"
+  },
+  {
+    "college-id": "san-fran-st",
+    "name": "San Fran. State",
+    "long": "San Francisco State University"
+  },
+  {
+    "college-id": "san-francisco",
+    "name": "San Francisco",
+    "long": "University of San Francisco"
+  },
+  {
+    "college-id": "san-jose-st",
+    "name": "San Jose State",
+    "long": "San Jose State University"
+  },
+  {
+    "college-id": "santa-clara",
+    "name": "Santa Clara",
+    "long": "Santa Clara University"
+  },
+  {
+    "college-id": "sarah-lawrence",
+    "name": "Sarah Lawrence",
+    "long": "Sarah Lawrence College"
+  },
+  {
+    "college-id": "savannah-st",
+    "name": "Savannah State",
+    "long": "Savannah State University"
+  },
+  {
+    "college-id": "sc-aiken",
+    "name": "South-Carolina-Aiken",
+    "long": "University of South Carolina Aiken"
+  },
+  {
+    "college-id": "scad",
+    "name": "SCAD",
+    "long": "Savannah College of Art & Design"
+  },
+  {
+    "college-id": "schreiner",
+    "name": "Schreiner",
+    "long": "Schreiner University"
+  },
+  {
+    "college-id": "scranton",
+    "name": "Scranton",
+    "long": "University of Scranton"
+  },
+  {
+    "college-id": "seattle",
+    "name": "Seattle",
+    "long": "Seattle University"
+  },
+  {
+    "college-id": "seattle-pacific",
+    "name": "Seattle Pacific",
+    "long": "Seattle Pacific University"
+  },
+  {
+    "college-id": "seton-hall",
+    "name": "Seton Hall",
+    "long": "Seton Hall University"
+  },
+  {
+    "college-id": "seton-hill",
+    "name": "Seton Hill",
+    "long": "Seton Hill University"
+  },
+  {
+    "college-id": "sewanee",
+    "name": "Sewanee",
+    "long": "The University of the South"
+  },
+  {
+    "college-id": "shaw",
+    "name": "Shaw",
+    "long": "Shaw University"
+  },
+  {
+    "college-id": "shenandoah",
+    "name": "Shenandoah",
+    "long": "Shenandoah University"
+  },
+  {
+    "college-id": "shepherd",
+    "name": "Shepherd",
+    "long": "Shepherd University"
+  },
+  {
+    "college-id": "shippensburg",
+    "name": "Shippensburg",
+    "long": "Shippensburg University"
+  },
+  {
+    "college-id": "shorter",
+    "name": "Shorter",
+    "long": "Shorter University"
+  },
+  {
+    "college-id": "siena",
+    "name": "Siena",
+    "long": "Siena College"
+  },
+  {
+    "college-id": "simmons",
+    "name": "Simmons",
+    "long": "Simmons College"
+  },
+  {
+    "college-id": "simon-fraser",
+    "name": "Simon Fraser",
+    "long": "Simon Fraser University"
+  },
+  {
+    "college-id": "simpson",
+    "name": "Simpson",
+    "long": "Simpson College"
+  },
+  {
+    "college-id": "sioux-falls",
+    "name": "Sioux Falls",
+    "long": "University of Sioux Falls"
+  },
+  {
+    "college-id": "siu-edwardsville",
+    "name": "SIUE",
+    "long": "Southern Illinois Univ.-Edwardsville"
+  },
+  {
+    "college-id": "skidmore",
+    "name": "Skidmore",
+    "long": "Skidmore College"
+  },
+  {
+    "college-id": "slippery-rock",
+    "name": "Slippery Rock",
+    "long": "Slippery Rock University"
+  },
+  {
+    "college-id": "smith",
+    "name": "Smith",
+    "long": "Smith College"
+  },
+  {
+    "college-id": "smu",
+    "name": "SMU",
+    "long": "Southern Methodist University"
+  },
+  {
+    "college-id": "sonoma-st",
+    "name": "Sonoma State",
+    "long": "Sonoma State University"
+  },
+  {
+    "college-id": "south-ala",
+    "name": "South Ala.",
+    "long": "University of South Alabama"
+  },
+  {
+    "college-id": "south-carolina",
+    "name": "South Carolina",
+    "long": "University of South Carolina"
+  },
+  {
+    "college-id": "south-carolina-st",
+    "name": "South Carolina State",
+    "long": "South Carolina State University"
+  },
+  {
+    "college-id": "south-dakota",
+    "name": "South Dakota",
+    "long": "University of South Dakota"
+  },
+  {
+    "college-id": "south-dakota-mines",
+    "name": "South Dakota Mines",
+    "long": "South Dakota (Mines)"
+  },
+  {
+    "college-id": "south-dakota-st",
+    "name": "South Dakota State",
+    "long": "South Dakota State University"
+  },
+  {
+    "college-id": "south-fla",
+    "name": "South Fla.",
+    "long": "University of South Florida"
+  },
+  {
+    "college-id": "southampton",
+    "name": "Southampton",
+    "long": "Southampton Campus of LIU"
+  },
+  {
+    "college-id": "southeast-mo-st",
+    "name": "Southeast Mo. State",
+    "long": "Southeast Missouri State University"
+  },
+  {
+    "college-id": "southeastern-la",
+    "name": "Southeastern La.",
+    "long": "Southeastern Louisiana University"
+  },
+  {
+    "college-id": "southeastern-okla",
+    "name": "Southeastern Okla.",
+    "long": "Southeastern Oklahoma State Univ."
+  },
+  {
+    "college-id": "southern-ark",
+    "name": "Southern Ark.",
+    "long": "Southern Arkansas University"
+  },
+  {
+    "college-id": "southern-california",
+    "name": "Southern California",
+    "long": "University of Southern California"
+  },
+  {
+    "college-id": "southern-conn-st",
+    "name": "Southern Conn. State",
+    "long": "Southern Connecticut State University"
+  },
+  {
+    "college-id": "southern-ill",
+    "name": "Southern Ill.",
+    "long": "Southern Illinois University"
+  },
+  {
+    "college-id": "southern-ind",
+    "name": "Southern Ind.",
+    "long": "University of Southern Indiana"
+  },
+  {
+    "college-id": "southern-me",
+    "name": "Southern Me.",
+    "long": "University of Southern Maine"
+  },
+  {
+    "college-id": "southern-miss",
+    "name": "Southern Miss.",
+    "long": "The University of Southern Mississippi"
+  },
+  {
+    "college-id": "southern-nazarene",
+    "name": "Southern Nazarene",
+    "long": "Southern Nazarene University"
+  },
+  {
+    "college-id": "southern-nh",
+    "name": "Southern N.H.",
+    "long": "Southern New Hampshire University"
+  },
+  {
+    "college-id": "southern-u",
+    "name": "Southern U.",
+    "long": "Southern University"
+  },
+  {
+    "college-id": "southern-utah",
+    "name": "Southern Utah",
+    "long": "Southern Utah University"
+  },
+  {
+    "college-id": "southern-va",
+    "name": "Southern Virginia",
+    "long": "Southern Virginia University"
+  },
+  {
+    "college-id": "southern-vt",
+    "name": "Southern Vt.",
+    "long": "Southern Vermont College"
+  },
+  {
+    "college-id": "southern-wesleyan",
+    "name": "Southern Wesleyan",
+    "long": "Southern Wesleyan University"
+  },
+  {
+    "college-id": "southwest-baptist",
+    "name": "Southwest Baptist",
+    "long": "Southwest Baptist University"
+  },
+  {
+    "college-id": "southwest-minn-st",
+    "name": "Southwest Minn. State",
+    "long": "Southwest Minnesota State University"
+  },
+  {
+    "college-id": "southwestern-okla",
+    "name": "Southwestern Okla.",
+    "long": "Southwestern Oklahoma State Univ."
+  },
+  {
+    "college-id": "southwestern-tx",
+    "name": "Southwestern (TX)",
+    "long": "Southwestern University"
+  },
+  {
+    "college-id": "spalding",
+    "name": "Spalding",
+    "long": "Spalding University"
+  },
+  {
+    "college-id": "spelman",
+    "name": "Spelman",
+    "long": "Spelman College"
+  },
+  {
+    "college-id": "spring-hill",
+    "name": "Spring Hill",
+    "long": "Spring Hill College"
+  },
+  {
+    "college-id": "springfield",
+    "name": "Springfield",
+    "long": "Springfield College"
+  },
+  {
+    "college-id": "st-andrews",
+    "name": "State Andrews",
+    "long": "State Andrews Presbyterian College"
+  },
+  {
+    "college-id": "st-anselm",
+    "name": "State Anselm",
+    "long": "Saint Anselm College"
+  },
+  {
+    "college-id": "st-augustines",
+    "name": "State Augustine's",
+    "long": "State Augustine's University"
+  },
+  {
+    "college-id": "st-benedict",
+    "name": "Saint Benedict",
+    "long": "College of Saint Benedict"
+  },
+  {
+    "college-id": "st-bonaventure",
+    "name": "State Bonaventure",
+    "long": "State Bonaventure University"
+  },
+  {
+    "college-id": "st-catherine",
+    "name": "State Catherine",
+    "long": "State Catherine University"
+  },
+  {
+    "college-id": "st-cloud-st",
+    "name": "State Cloud State",
+    "long": "State Cloud State University"
+  },
+  {
+    "college-id": "st-edwards",
+    "name": "State Edward's",
+    "long": "State Edward's University"
+  },
+  {
+    "college-id": "st-elizabeth",
+    "name": "State Elizabeth",
+    "long": "College of Saint Elizabeth"
+  },
+  {
+    "college-id": "st-francis-il",
+    "name": "State Francis (IL)",
+    "long": "University of State Francis (Ill.)"
+  },
+  {
+    "college-id": "st-francis-ny",
+    "name": "State Francis Brooklyn",
+    "long": "State Francis College Brooklyn"
+  },
+  {
+    "college-id": "st-francis-pa",
+    "name": "State Francis (PA)",
+    "long": "Saint Francis University"
+  },
+  {
+    "college-id": "st-john-fisher",
+    "name": "State John Fisher",
+    "long": "State John Fisher University"
+  },
+  {
+    "college-id": "st-johns-ny",
+    "name": "State John's (NY)",
+    "long": "State John's University (N.Y.)"
+  },
+  {
+    "college-id": "st-joseph-ct",
+    "name": "State Joseph (CT)",
+    "long": "University of Saint Joseph (Conn.)"
+  },
+  {
+    "college-id": "st-josephs-brkln",
+    "name": "State Joseph's (Brkln)",
+    "long": "State Joseph's University, New York (Brooklyn)"
+  },
+  {
+    "college-id": "st-josephs-in",
+    "name": "State Joseph's (IN)",
+    "long": "Saint Joseph's College (Ind.)"
+  },
+  {
+    "college-id": "st-josephs-li",
+    "name": "State Joseph's (L.I.)",
+    "long": "State Joseph's University (Long Island)"
+  },
+  {
+    "college-id": "st-josephs-me",
+    "name": "State Joseph's (Me.)",
+    "long": "Saint Joseph's College (Maine)"
+  },
+  {
+    "college-id": "st-lawrence",
+    "name": "State Lawrence",
+    "long": "State Lawrence University"
+  },
+  {
+    "college-id": "st-marys-ca",
+    "name": "Saint-Mary's (CA)",
+    "long": "State Mary's College (CA)"
+  },
+  {
+    "college-id": "st-marys-in",
+    "name": "Saint-Mary's (IN)",
+    "long": "Saint Mary's College (IN)"
+  },
+  {
+    "college-id": "st-marys-md",
+    "name": "Saint-Mary's (MD)",
+    "long": "State Mary's College (MD)"
+  },
+  {
+    "college-id": "st-marys-mn",
+    "name": "Saint Mary's (Minn.)",
+    "long": "Saint Mary's University (Minn.)"
+  },
+  {
+    "college-id": "st-marys-tx",
+    "name": "State Mary's (TX)",
+    "long": "State Mary's University (Texas)"
+  },
+  {
+    "college-id": "st-norbert",
+    "name": "State Norbert",
+    "long": "State Norbert College"
+  },
+  {
+    "college-id": "st-olaf",
+    "name": "State Olaf",
+    "long": "State Olaf College"
+  },
+  {
+    "college-id": "st-pauls",
+    "name": "State Paul's",
+    "long": "State Paul's College"
+  },
+  {
+    "college-id": "st-peters",
+    "name": "Saint Peter's",
+    "long": "Saint Peter's University"
+  },
+  {
+    "college-id": "st-scholastica",
+    "name": "State Scholastica",
+    "long": "College of State Scholastica"
+  },
+  {
+    "college-id": "st-thomas-aquinas",
+    "name": "State Thomas Aquinas",
+    "long": "State Thomas Aquinas College"
+  },
+  {
+    "college-id": "st-thomas-fl",
+    "name": "State Thomas (FL)",
+    "long": "State Thomas University"
+  },
+  {
+    "college-id": "st-thomas-mn",
+    "name": "State Thomas (MN)",
+    "long": "University of State Thomas (Minn.)"
+  },
+  {
+    "college-id": "st-thomas-tx",
+    "name": "State Thomas Houston",
+    "long": "State Thomas Houston"
+  },
+  {
+    "college-id": "stanford",
+    "name": "Stanford",
+    "long": "Stanford University"
+  },
+  {
+    "college-id": "staten-island",
+    "name": "Staten Island",
+    "long": "College of Staten Island"
+  },
+  {
+    "college-id": "stephen-f-austin",
+    "name": "Stephen F. Austin",
+    "long": "Stephen F. Austin State University"
+  },
+  {
+    "college-id": "stephens",
+    "name": "Stephens",
+    "long": "Stephens College"
+  },
+  {
+    "college-id": "stetson",
+    "name": "Stetson",
+    "long": "Stetson University"
+  },
+  {
+    "college-id": "stevens",
+    "name": "Stevens",
+    "long": "Stevens Institute of Technology"
+  },
+  {
+    "college-id": "stevenson",
+    "name": "Stevenson",
+    "long": "Stevenson University"
+  },
+  {
+    "college-id": "stillman",
+    "name": "Stillman",
+    "long": "Stillman College"
+  },
+  {
+    "college-id": "stonehill",
+    "name": "Stonehill",
+    "long": "Stonehill College"
+  },
+  {
+    "college-id": "stony-brook",
+    "name": "Stony Brook",
+    "long": "Stony Brook University"
+  },
+  {
+    "college-id": "suffolk",
+    "name": "Suffolk",
+    "long": "Suffolk University"
+  },
+  {
+    "college-id": "sul-ross-st",
+    "name": "Sul Ross State",
+    "long": "Sul Ross State University"
+  },
+  {
+    "college-id": "suny-brockport",
+    "name": "SUNY Brockport",
+    "long": "State University of New York Brockport"
+  },
+  {
+    "college-id": "suny-canton",
+    "name": "SUNY Canton",
+    "long": "SUNY Canton"
+  },
+  {
+    "college-id": "suny-cortland",
+    "name": "SUNY Cortland",
+    "long": "SUNY, Cortland"
+  },
+  {
+    "college-id": "suny-delhi",
+    "name": "SUNY Delhi",
+    "long": "SUNY Delhi"
+  },
+  {
+    "college-id": "suny-geneseo",
+    "name": "SUNY Geneseo",
+    "long": "SUNY, Geneseo"
+  },
+  {
+    "college-id": "suny-maritime",
+    "name": "SUNY Maritime",
+    "long": "SUNY Maritime College"
+  },
+  {
+    "college-id": "suny-morrisville",
+    "name": "State University of New York at Morrisville",
+    "long": "State University of New York at Morrisville"
+  },
+  {
+    "college-id": "suny-new-paltz",
+    "name": "SUNY New Paltz",
+    "long": "SUNY New Paltz"
+  },
+  {
+    "college-id": "suny-potsdam",
+    "name": "SUNY Potsdam",
+    "long": "SUNY, Potsdam"
+  },
+  {
+    "college-id": "sunyit",
+    "name": "SUNY Poly",
+    "long": "SUNY Polytechnic Institute"
+  },
+  {
+    "college-id": "susquehanna",
+    "name": "Susquehanna",
+    "long": "Susquehanna University"
+  },
+  {
+    "college-id": "swarthmore",
+    "name": "Swarthmore",
+    "long": "Swarthmore College"
+  },
+  {
+    "college-id": "sweet-briar",
+    "name": "Sweet Briar",
+    "long": "Sweet Briar College"
+  },
+  {
+    "college-id": "syracuse",
+    "name": "Syracuse",
+    "long": "Syracuse University"
+  },
+  {
+    "college-id": "tampa",
+    "name": "Tampa",
+    "long": "University of Tampa"
+  },
+  {
+    "college-id": "tarleton-st",
+    "name": "Tarleton State",
+    "long": "Tarleton State University"
+  },
+  {
+    "college-id": "tcnj",
+    "name": "TCNJ",
+    "long": "The College of New Jersey"
+  },
+  {
+    "college-id": "tcu",
+    "name": "TCU",
+    "long": "Texas Christian University"
+  },
+  {
+    "college-id": "temple",
+    "name": "Temple",
+    "long": "Temple University"
+  },
+  {
+    "college-id": "tennessee",
+    "name": "Tennessee",
+    "long": "University of Tennessee"
+  },
+  {
+    "college-id": "tennessee-st",
+    "name": "Tennessee State",
+    "long": "Tennessee State University"
+  },
+  {
+    "college-id": "tennessee-tech",
+    "name": "Tennessee Tech",
+    "long": "Tennessee Technological University"
+  },
+  {
+    "college-id": "tex-am-intl",
+    "name": "Tex. A&M Int'l",
+    "long": "Texas A&M International University"
+  },
+  {
+    "college-id": "tex-am-kingsville",
+    "name": "Tex. A&M-Kingsville",
+    "long": "Texas A&M-Kingsville"
+  },
+  {
+    "college-id": "tex-permian-basin",
+    "name": "Texas of the Permian Basin",
+    "long": "Texas of the Permian Basin"
+  },
+  {
+    "college-id": "texas",
+    "name": "Texas",
+    "long": "University of Texas"
+  },
+  {
+    "college-id": "texas-am",
+    "name": "Texas A&M",
+    "long": "Texas A&M University"
+  },
+  {
+    "college-id": "texas-arlington",
+    "name": "Texas at Arlington",
+    "long": "University of Texas at Arlington"
+  },
+  {
+    "college-id": "texas-dallas",
+    "name": "Texas at Dallas",
+    "long": "University of Texas at Dallas"
+  },
+  {
+    "college-id": "texas-lutheran",
+    "name": "Texas Lutheran",
+    "long": "Texas Lutheran University"
+  },
+  {
+    "college-id": "texas-southern",
+    "name": "Texas Southern",
+    "long": "Texas Southern University"
+  },
+  {
+    "college-id": "texas-st",
+    "name": "Texas State",
+    "long": "Texas State University"
+  },
+  {
+    "college-id": "texas-tech",
+    "name": "Texas Tech",
+    "long": "Texas Tech University"
+  },
+  {
+    "college-id": "texas-tyler",
+    "name": "Texas at Tyler",
+    "long": "University of Texas at Tyler"
+  },
+  {
+    "college-id": "texas-wesleyan",
+    "name": "Texas Wesleyan",
+    "long": "Texas Wesleyan University"
+  },
+  {
+    "college-id": "texas-womans",
+    "name": "Texas Woman's",
+    "long": "Texas Woman's University"
+  },
+  {
+    "college-id": "thiel",
+    "name": "Thiel",
+    "long": "Thiel College"
+  },
+  {
+    "college-id": "thomas-me",
+    "name": "Thomas (ME)",
+    "long": "Thomas College"
+  },
+  {
+    "college-id": "thomas-more",
+    "name": "Thomas More",
+    "long": "Thomas More University"
+  },
+  {
+    "college-id": "tiffin",
+    "name": "Tiffin",
+    "long": "Tiffin University"
+  },
+  {
+    "college-id": "toledo",
+    "name": "Toledo",
+    "long": "University of Toledo"
+  },
+  {
+    "college-id": "towson",
+    "name": "Towson",
+    "long": "Towson University"
+  },
+  {
+    "college-id": "transylvania",
+    "name": "Transylvania",
+    "long": "Transylvania University"
+  },
+  {
+    "college-id": "trevecca-nazarene",
+    "name": "Trevecca Nazarene",
+    "long": "Trevecca Nazarene University"
+  },
+  {
+    "college-id": "trine",
+    "name": "Trine",
+    "long": "Trine University"
+  },
+  {
+    "college-id": "trinity-ct",
+    "name": "Trinity (CT)",
+    "long": "Trinity College (CT)"
+  },
+  {
+    "college-id": "trinity-tx",
+    "name": "Trinity (TX)",
+    "long": "Trinity University (Texas)"
+  },
+  {
+    "college-id": "trinity-washington",
+    "name": "Trinity Washington",
+    "long": "Trinity Washington University"
+  },
+  {
+    "college-id": "troy",
+    "name": "Troy",
+    "long": "Troy University"
+  },
+  {
+    "college-id": "truman",
+    "name": "Truman",
+    "long": "Truman State University"
+  },
+  {
+    "college-id": "tufts",
+    "name": "Tufts",
+    "long": "Tufts University"
+  },
+  {
+    "college-id": "tulane",
+    "name": "Tulane",
+    "long": "Tulane University"
+  },
+  {
+    "college-id": "tulsa",
+    "name": "Tulsa",
+    "long": "The University of Tulsa"
+  },
+  {
+    "college-id": "tusculum",
+    "name": "Tusculum",
+    "long": "Tusculum College"
+  },
+  {
+    "college-id": "tuskegee",
+    "name": "Tuskegee",
+    "long": "Tuskegee University"
+  },
+  {
+    "college-id": "u-new-england",
+    "name": "New-England",
+    "long": "University of New England"
+  },
+  {
+    "college-id": "uab",
+    "name": "UAB",
+    "long": "UAB"
+  },
+  {
+    "college-id": "ualr",
+    "name": "Little-Rock",
+    "long": "Little Rock"
+  },
+  {
+    "college-id": "uc-colo-springs",
+    "name": "Colo-Springs",
+    "long": "Univ. of Colorado-Colorado Springs"
+  },
+  {
+    "college-id": "uc-davis",
+    "name": "UC Davis",
+    "long": "UC Davis"
+  },
+  {
+    "college-id": "uc-irvine",
+    "name": "UC Irvine",
+    "long": "UC Irvine"
+  },
+  {
+    "college-id": "uc-riverside",
+    "name": "UC Riverside",
+    "long": "UC Riverside"
+  },
+  {
+    "college-id": "uc-san-diego",
+    "name": "UC San Diego",
+    "long": "UC San Diego"
+  },
+  {
+    "college-id": "uc-santa-barbara",
+    "name": "UC Santa Barbara",
+    "long": "UC Santa Barbara"
+  },
+  {
+    "college-id": "uc-santa-cruz",
+    "name": "UC Santa Cruz",
+    "long": "UC Santa Cruz"
+  },
+  {
+    "college-id": "ucf",
+    "name": "UCF",
+    "long": "University of Central Florida"
+  },
+  {
+    "college-id": "ucla",
+    "name": "UCLA",
+    "long": "UCLA"
+  },
+  {
+    "college-id": "uconn",
+    "name": "Connecticut",
+    "long": "University of Connecticut"
+  },
+  {
+    "college-id": "umass-boston",
+    "name": "Mass.-Boston",
+    "long": "UMass Boston"
+  },
+  {
+    "college-id": "umass-dartmouth",
+    "name": "Mass.-Dartmouth",
+    "long": "UMass Dartmouth"
+  },
+  {
+    "college-id": "umass-lowell",
+    "name": "Mass.-Lowell",
+    "long": "UMass Lowell"
+  },
+  {
+    "college-id": "umbc",
+    "name": "Maryland-Baltimore-County",
+    "long": "UMBC"
+  },
+  {
+    "college-id": "umes",
+    "name": "Md.-EaState Shore",
+    "long": "University of Maryland, Eastern Shore"
+  },
+  {
+    "college-id": "umkc",
+    "name": "Kansas City",
+    "long": "University of Missouri-Kansas City"
+  },
+  {
+    "college-id": "unc-asheville",
+    "name": "UNC Asheville",
+    "long": "UNC Asheville"
+  },
+  {
+    "college-id": "unc-greensboro",
+    "name": "UNC Greensboro",
+    "long": "UNC Greensboro"
+  },
+  {
+    "college-id": "unc-pembroke",
+    "name": "UNC Pembroke",
+    "long": "UNC Pembroke"
+  },
+  {
+    "college-id": "unc-wilmington",
+    "name": "UNCW",
+    "long": "UNC Wilmington"
+  },
+  {
+    "college-id": "uni",
+    "name": "Northern Iowa",
+    "long": "University of Northern Iowa"
+  },
+  {
+    "college-id": "union-ny",
+    "name": "Union (NY)",
+    "long": "Union College (N.Y.)"
+  },
+  {
+    "college-id": "union-tn",
+    "name": "Union (Tenn.)",
+    "long": "Union University (Tenn.)"
+  },
+  {
+    "college-id": "unlv",
+    "name": "UNLV",
+    "long": "UNLV"
+  },
+  {
+    "college-id": "upper-iowa",
+    "name": "Upper Iowa",
+    "long": "Upper Iowa University"
+  },
+  {
+    "college-id": "urbana",
+    "name": "Urbana University",
+    "long": "Urbana University"
+  },
+  {
+    "college-id": "ursinus",
+    "name": "Ursinus",
+    "long": "Ursinus College"
+  },
+  {
+    "college-id": "ursuline",
+    "name": "Ursuline",
+    "long": "Ursuline College"
+  },
+  {
+    "college-id": "usc-beaufort",
+    "name": "USC Beaufort",
+    "long": "University of South Carolina Beaufort"
+  },
+  {
+    "college-id": "usc-upstate",
+    "name": "South-Carolina-Upstate",
+    "long": "University of South Carolina Upstate"
+  },
+  {
+    "college-id": "ut-martin",
+    "name": "Tenn-Martin",
+    "long": "University of Tennessee at Martin"
+  },
+  {
+    "college-id": "utah",
+    "name": "Utah",
+    "long": "University of Utah"
+  },
+  {
+    "college-id": "utah-st",
+    "name": "Utah State",
+    "long": "Utah State University"
+  },
+  {
+    "college-id": "utah-tech",
+    "name": "Utah Tech",
+    "long": "Utah Tech University"
+  },
+  {
+    "college-id": "utah-valley",
+    "name": "Utah Valley",
+    "long": "Utah Valley University"
+  },
+  {
+    "college-id": "utep",
+    "name": "Texas at El Paso",
+    "long": "University of Texas at El Paso"
+  },
+  {
+    "college-id": "utica",
+    "name": "Utica",
+    "long": "Utica College"
+  },
+  {
+    "college-id": "utrgv",
+    "name": "Texas Rio Grande Valley",
+    "long": "University of Texas Rio Grande Valley"
+  },
+  {
+    "college-id": "utsa",
+    "name": "Texas at San Antonio",
+    "long": "University of Texas at San Antonio"
+  },
+  {
+    "college-id": "uva-wise",
+    "name": "Virginia-Wise",
+    "long": "Virginia's College at Wise"
+  },
+  {
+    "college-id": "va-wesleyan",
+    "name": "Virg-Wesleyan",
+    "long": "Virginia Wesleyan College"
+  },
+  {
+    "college-id": "valdosta-st",
+    "name": "Valdosta State",
+    "long": "Valdosta State University"
+  },
+  {
+    "college-id": "valley-forge-chrst",
+    "name": "Valley Forge",
+    "long": "University of Valley Forge"
+  },
+  {
+    "college-id": "valparaiso",
+    "name": "Valparaiso",
+    "long": "Valparaiso University"
+  },
+  {
+    "college-id": "vanderbilt",
+    "name": "Vanderbilt",
+    "long": "Vanderbilt University"
+  },
+  {
+    "college-id": "vassar",
+    "name": "Vassar",
+    "long": "Vassar College"
+  },
+  {
+    "college-id": "vcu",
+    "name": "VCU",
+    "long": "Virginia Commonwealth University"
+  },
+  {
+    "college-id": "vermont",
+    "name": "Vermont",
+    "long": "University of Vermont"
+  },
+  {
+    "college-id": "villanova",
+    "name": "Villanova",
+    "long": "Villanova University"
+  },
+  {
+    "college-id": "virginia",
+    "name": "Virginia",
+    "long": "University of Virginia"
+  },
+  {
+    "college-id": "virginia-st",
+    "name": "Virginia State",
+    "long": "Virginia State University"
+  },
+  {
+    "college-id": "virginia-tech",
+    "name": "Virginia Tech",
+    "long": "Virginia Tech"
+  },
+  {
+    "college-id": "virginia-union",
+    "name": "Virginia Union",
+    "long": "Virginia Union University"
+  },
+  {
+    "college-id": "vmi",
+    "name": "VMI",
+    "long": "Virginia Military Institute"
+  },
+  {
+    "college-id": "wabash",
+    "name": "Wabash",
+    "long": "Wabash College"
+  },
+  {
+    "college-id": "wagner",
+    "name": "Wagner",
+    "long": "Wagner College"
+  },
+  {
+    "college-id": "wake-forest",
+    "name": "Wake Forest",
+    "long": "Wake Forest University"
+  },
+  {
+    "college-id": "walsh",
+    "name": "Walsh",
+    "long": "Walsh University"
+  },
+  {
+    "college-id": "warren-wilson-college",
+    "name": "Warren Wilson College",
+    "long": "Warren Wilson College"
+  },
+  {
+    "college-id": "wartburg",
+    "name": "Wartburg",
+    "long": "Wartburg College"
+  },
+  {
+    "college-id": "wash-jeff",
+    "name": "Wash. & Jeff.",
+    "long": "Washington and Jefferson College"
+  },
+  {
+    "college-id": "wash-lee",
+    "name": "Wash. & Lee",
+    "long": "Washington and Lee University"
+  },
+  {
+    "college-id": "washburn",
+    "name": "Washburn",
+    "long": "Washburn University of Topeka"
+  },
+  {
+    "college-id": "washington",
+    "name": "Washington",
+    "long": "University of Washington"
+  },
+  {
+    "college-id": "washington-adventist",
+    "name": "Washington Adventist",
+    "long": "Washington Adventist University"
+  },
+  {
+    "college-id": "washington-col",
+    "name": "Washington Col.",
+    "long": "Washington College"
+  },
+  {
+    "college-id": "washington-st",
+    "name": "Washington State",
+    "long": "Washington State University"
+  },
+  {
+    "college-id": "washington-st-louis",
+    "name": "Washington-State Louis",
+    "long": "Washington University (Missouri)"
+  },
+  {
+    "college-id": "wayne-st-mi",
+    "name": "Wayne State (MI)",
+    "long": "Wayne State University"
+  },
+  {
+    "college-id": "wayne-st-ne",
+    "name": "Wayne State (NE)",
+    "long": "Wayne State College"
+  },
+  {
+    "college-id": "waynesburg",
+    "name": "Waynesburg",
+    "long": "Waynesburg University"
+  },
+  {
+    "college-id": "weber-st",
+    "name": "Weber State",
+    "long": "Weber State University"
+  },
+  {
+    "college-id": "webster",
+    "name": "Webster",
+    "long": "Webster University"
+  },
+  {
+    "college-id": "wellesley",
+    "name": "Wellesley",
+    "long": "Wellesley College"
+  },
+  {
+    "college-id": "wells",
+    "name": "Wells",
+    "long": "Wells College"
+  },
+  {
+    "college-id": "wentworth",
+    "name": "Wentworth InState",
+    "long": "Wentworth Institute of Technology"
+  },
+  {
+    "college-id": "wesley",
+    "name": "Wesley",
+    "long": "Wesley College"
+  },
+  {
+    "college-id": "wesleyan-ct",
+    "name": "Wesleyan (CT)",
+    "long": "Wesleyan University"
+  },
+  {
+    "college-id": "wesleyan-ga",
+    "name": "Wesleyan (GA)",
+    "long": "Wesleyan College"
+  },
+  {
+    "college-id": "west-ala",
+    "name": "West Ala.",
+    "long": "University of West Alabama"
+  },
+  {
+    "college-id": "west-chester",
+    "name": "West Chester",
+    "long": "West Chester Univ. of Pennsylvania"
+  },
+  {
+    "college-id": "west-florida",
+    "name": "West Fla.",
+    "long": "University of West Florida"
+  },
+  {
+    "college-id": "west-ga",
+    "name": "West Ga.",
+    "long": "University of West Georgia"
+  },
+  {
+    "college-id": "west-liberty",
+    "name": "West Liberty",
+    "long": "West Liberty University"
+  },
+  {
+    "college-id": "west-tex-am",
+    "name": "West Tex. A&M",
+    "long": "West Texas A&M University"
+  },
+  {
+    "college-id": "west-va-tech",
+    "name": "West Va. Tech",
+    "long": "West Virginia Univ. InState of Tech."
+  },
+  {
+    "college-id": "west-va-wesleyan",
+    "name": "West Va. Wesleyan",
+    "long": "West Virginia Wesleyan College"
+  },
+  {
+    "college-id": "west-virginia",
+    "name": "West Virginia",
+    "long": "West Virginia University"
+  },
+  {
+    "college-id": "west-virginia-st",
+    "name": "West Virginia State",
+    "long": "West Virginia State University"
+  },
+  {
+    "college-id": "western-caro",
+    "name": "Western Caro.",
+    "long": "Western Carolina University"
+  },
+  {
+    "college-id": "western-conn-st",
+    "name": "Western Conn. State",
+    "long": "Western Connecticut State University"
+  },
+  {
+    "college-id": "western-ill",
+    "name": "Western Ill.",
+    "long": "Western Illinois University"
+  },
+  {
+    "college-id": "western-ky",
+    "name": "Western Ky.",
+    "long": "Western Kentucky University"
+  },
+  {
+    "college-id": "western-mich",
+    "name": "Western Mich.",
+    "long": "Western Michigan University"
+  },
+  {
+    "college-id": "western-new-eng",
+    "name": "Western New Eng.",
+    "long": "Western New England University"
+  },
+  {
+    "college-id": "western-nm",
+    "name": "Western N.M.",
+    "long": "Western New Mexico University"
+  },
+  {
+    "college-id": "western-ore",
+    "name": "Western Ore.",
+    "long": "Western Oregon University"
+  },
+  {
+    "college-id": "western-st",
+    "name": "Western Colo.",
+    "long": "Western Colorado University"
+  },
+  {
+    "college-id": "western-wash",
+    "name": "Western Wash.",
+    "long": "Western Washington University"
+  },
+  {
+    "college-id": "westfield-st",
+    "name": "Westfield State",
+    "long": "Westfield State University"
+  },
+  {
+    "college-id": "westminster-mo",
+    "name": "Westminster (MO)",
+    "long": "Westminster College (Mo.)"
+  },
+  {
+    "college-id": "westminster-pa",
+    "name": "Westminster (PA)",
+    "long": "Westminster College (Pa.)"
+  },
+  {
+    "college-id": "westminster-ut",
+    "name": "Westminster (UT)",
+    "long": "Westminster University"
+  },
+  {
+    "college-id": "westmont-college",
+    "name": "Westmont College",
+    "long": "Westmont College"
+  },
+  {
+    "college-id": "wheaton-il",
+    "name": "Wheaton (IL)",
+    "long": "Wheaton College (Ill.)"
+  },
+  {
+    "college-id": "wheaton-ma",
+    "name": "Wheaton (MA)",
+    "long": "Wheaton College (Mass.)"
+  },
+  {
+    "college-id": "wheeling-jesuit",
+    "name": "Wheeling Jesuit",
+    "long": "Wheeling Jesuit University"
+  },
+  {
+    "college-id": "wheelock",
+    "name": "Wheelock",
+    "long": "Wheelock College"
+  },
+  {
+    "college-id": "whitman",
+    "name": "Whitman",
+    "long": "Whitman College"
+  },
+  {
+    "college-id": "whittier",
+    "name": "Whittier",
+    "long": "Whittier College"
+  },
+  {
+    "college-id": "whitworth",
+    "name": "Whitworth",
+    "long": "Whitworth University"
+  },
+  {
+    "college-id": "wichita-st",
+    "name": "Wichita State",
+    "long": "Wichita State University"
+  },
+  {
+    "college-id": "widener",
+    "name": "Widener",
+    "long": "Widener University"
+  },
+  {
+    "college-id": "wilkes",
+    "name": "Wilkes",
+    "long": "Wilkes University"
+  },
+  {
+    "college-id": "willamette",
+    "name": "Willamette",
+    "long": "Willamette University"
+  },
+  {
+    "college-id": "william-jewell",
+    "name": "William Jewell",
+    "long": "William Jewell College"
+  },
+  {
+    "college-id": "william-mary",
+    "name": "William & Mary",
+    "long": "College of William and Mary"
+  },
+  {
+    "college-id": "william-peace",
+    "name": "William Peace",
+    "long": "William Peace University"
+  },
+  {
+    "college-id": "william-penn",
+    "name": "William Penn",
+    "long": "William Penn College"
+  },
+  {
+    "college-id": "william-smith",
+    "name": "William Smith",
+    "long": "William Smith College"
+  },
+  {
+    "college-id": "williams",
+    "name": "Williams",
+    "long": "Williams College"
+  },
+  {
+    "college-id": "wilmington-de",
+    "name": "Wilmington (DE)",
+    "long": "Wilmington University"
+  },
+  {
+    "college-id": "wilmington-oh",
+    "name": "Wilmington (OH)",
+    "long": "Wilmington College"
+  },
+  {
+    "college-id": "wilson",
+    "name": "Wilson",
+    "long": "Wilson College"
+  },
+  {
+    "college-id": "wingate",
+    "name": "Wingate",
+    "long": "Wingate University"
+  },
+  {
+    "college-id": "winona-st",
+    "name": "Winona State",
+    "long": "Winona State University"
+  },
+  {
+    "college-id": "winston-salem",
+    "name": "Winston-Salem",
+    "long": "Winston-Salem State University"
+  },
+  {
+    "college-id": "winthrop",
+    "name": "Winthrop",
+    "long": "Winthrop University"
+  },
+  {
+    "college-id": "wis-eau-claire",
+    "name": "Wis.-Eau Claire",
+    "long": "University of Wisconsin-Eau Claire"
+  },
+  {
+    "college-id": "wis-la-crosse",
+    "name": "Wis.-La Crosse",
+    "long": "University of Wisconsin-La Crosse"
+  },
+  {
+    "college-id": "wis-lutheran",
+    "name": "Wis. Lutheran",
+    "long": "Wisconsin Lutheran College"
+  },
+  {
+    "college-id": "wis-oshkosh",
+    "name": "Wis.-Oshkosh",
+    "long": "University of Wisconsin-Oshkosh"
+  },
+  {
+    "college-id": "wis-parkside",
+    "name": "Wis.-Parkside",
+    "long": "University of Wisconsin, Parkside"
+  },
+  {
+    "college-id": "wis-platteville",
+    "name": "Wis.-Platteville",
+    "long": "University of Wisconsin-Platteville"
+  },
+  {
+    "college-id": "wis-river-falls",
+    "name": "Wis.-River Falls",
+    "long": "University of Wisconsin-River Falls"
+  },
+  {
+    "college-id": "wis-stevens-point",
+    "name": "Wis.-Stevens Point",
+    "long": "Univ. of Wisconsin-Stevens Point"
+  },
+  {
+    "college-id": "wis-stout",
+    "name": "Wis.-Stout",
+    "long": "University of Wisconsin-Stout"
+  },
+  {
+    "college-id": "wis-superior",
+    "name": "Wis.-Superior",
+    "long": "University of Wisconsin-Superior"
+  },
+  {
+    "college-id": "wis-whitewater",
+    "name": "Wis.-Whitewater",
+    "long": "University of Wisconsin-Whitewater"
+  },
+  {
+    "college-id": "wisconsin",
+    "name": "Wisconsin",
+    "long": "University of Wisconsin, Madison"
+  },
+  {
+    "college-id": "Wisconsin-Eau Claire"
+  },
+  {
+    "college-id": "Wisconsin-La Crosse"
+  },
+  {
+    "college-id": "wittenberg",
+    "name": "Wittenberg",
+    "long": "Wittenberg University"
+  },
+  {
+    "college-id": "wm-paterson",
+    "name": "William Paterson",
+    "long": "William Paterson University"
+  },
+  {
+    "college-id": "wofford",
+    "name": "Wofford",
+    "long": "Wofford College"
+  },
+  {
+    "college-id": "wooster",
+    "name": "Wooster",
+    "long": "College of Wooster"
+  },
+  {
+    "college-id": "worcester-st",
+    "name": "Worcester State",
+    "long": "Worcester State University"
+  },
+  {
+    "college-id": "wpi",
+    "name": "WPI",
+    "long": "Worcester Polytechnic Institute"
+  },
+  {
+    "college-id": "wright-st",
+    "name": "Wright State",
+    "long": "Wright State University"
+  },
+  {
+    "college-id": "WVU"
+  },
+  {
+    "college-id": "wyoming",
+    "name": "Wyoming",
+    "long": "University of Wyoming"
+  },
+  {
+    "college-id": "xavier",
+    "name": "Xavier",
+    "long": "Xavier University"
+  },
+  {
+    "college-id": "yale",
+    "name": "Yale",
+    "long": "Yale University"
+  },
+  {
+    "college-id": "yeshiva",
+    "name": "Yeshiva",
+    "long": "Yeshiva University"
+  },
+  {
+    "college-id": "york-ny",
+    "name": "York (NY)",
+    "long": "York College (N.Y.)"
+  },
+  {
+    "college-id": "york-pa",
+    "name": "York (PA)",
+    "long": "York College (Pa.)"
+  },
+  {
+    "college-id": "young-harris",
+    "name": "Young Harris",
+    "long": "Young Harris College"
+  },
+  {
+    "college-id": "youngstown-st",
+    "name": "Youngstown State",
+    "long": "Youngstown State University"
+  }
+]
